@@ -1,0 +1,5 @@
+participant,session,physical_block,block_label,eligible_events,states,channels,source
+one supplied Turner participant (prior release: ID13),1,0,R1 B1,988,40,17,supplied session1_localizer.npz
+one supplied Turner participant (prior release: ID13),1,1,R1 B2,992,40,17,supplied session1_localizer.npz
+one supplied Turner participant (prior release: ID13),2,0,R2 B1,988,40,17,supplied session2_localizer.npz
+one supplied Turner participant (prior release: ID13),2,1,R2 B2,992,40,17,supplied session2_localizer.npz

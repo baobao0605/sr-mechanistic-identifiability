@@ -1,0 +1,4 @@
+{
+  "reason": "Unshrunk training class-mean temporal kernels overfit noisy heldout block means at all tested ranks. Added nested nonnegative scalar gain calibration, selected only from the seven outer-training blocks, before comparing any outer-heldout means.",
+  "scope": "This controls a real bias-variance problem. Neither rank-one failure nor higher-rank advantage is presumed. All stated ranks reported, one person only."
+}

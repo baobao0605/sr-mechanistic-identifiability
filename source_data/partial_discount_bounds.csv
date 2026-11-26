@@ -1,0 +1,9 @@
+phi_degrees,discount_infimum,discount_supremum,endpoint_status,unique_FF_label_under_open_unit_discount,positive_distance_from_switching_closure
+0,0.0,0.0,closed lower and upper,False,False
+20,0.0,0.36397023426620234,closed lower and upper,False,False
+40,0.0,0.8390996311772799,closed lower and upper,False,False
+45,0.0,1.0,open lower and upper,True,False
+50,0.08748866352592402,1.0,open lower and upper,True,True
+60,0.26794919243112264,1.0,open lower and upper,True,True
+70,0.46630765815499853,1.0,open lower and upper,True,True
+80,0.7002075382097097,1.0,open lower and upper,True,True

@@ -1,0 +1,17 @@
+{
+  "status": "PASS_WITH_SCOPE",
+  "rules_sha256": "08efc4e9bf88aa2767eeb6b4f1067fb11fdd591c9193a117a91b675478e3e39e",
+  "protocol_sha256": "ea023c35f44ae8d308c2e520e404d06a6ea42b12cf9401f9b2de72f16b82412f",
+  "code_sha256": "b52d910240398c6d33f396abc83b556d3854613853f250b8b69aa08a673d7726",
+  "rules_checked": 18,
+  "threshold_rules_checked": 36,
+  "isotonic_max_error": 9.71445146547012e-17,
+  "record_groups_disjoint": true,
+  "primary_index_max_relative_error": 1.6653345369377348e-16,
+  "raw_input_conditions_checked": 324,
+  "transport_full_max_error": 5.684341886080802e-14,
+  "transport_projected_max_error": 8.526512829121202e-14,
+  "q_train_max_error": 8.526512829121202e-14,
+  "matrix_fft_orientation_max_error": 4.558140513599246e-14,
+  "scope": "Retrospective same-person/same-images transfer; record independence is a partition fact, not an inferential independence guarantee. Freeze order verified in code and run log; SHA verifies unchanged saved rule, not an external pre-registration timestamp."
+}

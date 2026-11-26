@@ -1,0 +1,9 @@
+{
+  "folds": 48,
+  "model_scores_rebuilt": 4560,
+  "test_sse_max_abs_error": 2.2737367544323206e-13,
+  "train_sse_max_abs_error": 3.979039320256561e-13,
+  "status": "PASS",
+  "old_scores_sha256": "207227f38468a4aeb113b38a500ba720fb893825a196077a81835373fe515712",
+  "cache_sha256": "8c1b0830f42a3b00dbe76f6877f5ed5f2762a51b574c3b244be7430ab0f23fcb"
+}

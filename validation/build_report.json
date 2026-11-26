@@ -1,0 +1,30 @@
+[
+  {
+    "name": "Manuscript_EN",
+    "bytes": 653788,
+    "overfull_boxes": 0,
+    "missing_glyph_lines": [],
+    "undefined_references": false
+  },
+  {
+    "name": "Manuscript_ZH",
+    "bytes": 730294,
+    "overfull_boxes": 0,
+    "missing_glyph_lines": [],
+    "undefined_references": false
+  },
+  {
+    "name": "Supplementary_EN",
+    "bytes": 261412,
+    "overfull_boxes": 0,
+    "missing_glyph_lines": [],
+    "undefined_references": false
+  },
+  {
+    "name": "Supplementary_ZH",
+    "bytes": 499720,
+    "overfull_boxes": 0,
+    "missing_glyph_lines": [],
+    "undefined_references": false
+  }
+]

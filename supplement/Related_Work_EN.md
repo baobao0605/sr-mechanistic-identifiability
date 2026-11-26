@@ -1,0 +1,27 @@
+# Relation to prior work
+
+## C1. Predictive maps, temporal context and direction
+
+Dayan introduced the successor representation as a discounted occupancy prediction that separates environmental transition structure from reward [1]. Stachenfeld and colleagues developed its implications for hippocampal population codes, place fields and representational similarity [2]. The present analysis begins with that mechanistic interpretation and asks which parts survive an observation procedure.
+
+Temporal direction has also been studied through alternative learning rules and behaviour. Gershman and colleagues related SR learning to temporal-context models and analysed conditions producing common and distinct predictions [3]. Keck and colleagues studied how symmetry in local learning rules changes predictive representations and generalization [10]. Momennejad and colleagues used revaluation to distinguish planning strategies [4], while Sharp and Eldar manipulated conditions under which forward and backward predictions support different decisions [9]. These studies establish both the relevance of competing mechanisms and the value of experimental intervention. The reciprocal-task results here add sufficient conditions for a direction property when a neural feature mapping is unknown, including the competing possibilities that the mechanism switches between conditions. The distinction between mixing maps and mixing transitions is made explicit by T22.
+
+## C2. Neural observations and reference measurements
+
+Relational geometry, future-related content and temporal scale are related empirical targets. Garvert and colleagues investigated abstract relational knowledge in the hippocampal–entorhinal system [5]. Brunec and Momennejad examined predictive representations across hippocampal and prefrontal hierarchies [6]. Ekman and colleagues compared future and past content using sequence learning, omission probes and localizer-based measurements [7]. Tarder-Stoll and colleagues studied hierarchical representations of past and future during multistep anticipation [8], and He and colleagues related sleep to successor-category evidence following learning [19].
+
+The present results connect those observation levels to specific mathematical targets: a direction shared by every compatible explanation, a net direction in a nonnegative mixture, a discount range, or a finite sequence of temporal weights. A learned reference contributes its own predictive structure to the operator relating measurements. Temporal persistence in measurement supplies a further mechanism for apparent backward structure; T23 states the corresponding mean relation and the role of independent probes.
+
+The empirical sources retain their original scientific aims. The Turner EEG study examined motion extrapolation across processing stages [18], and the Kern MEG study examined graph distance during cued recall [25]. Repeated measurements from these sources provide the reference estimates and known-transformation calibrations analysed here.
+
+## C3. Representational models and statistical identification
+
+Diedrichsen and Kriegeskorte placed encoding, pattern-component and representational-similarity methods in a common framework [12]. Gardner and Liu, and Sprague and colleagues, explained how encoding bases and model assumptions shape the interpretation of reconstructed responses [13,14]. Kriegeskorte and colleagues analysed circular selection [15], and Cai and colleagues examined task-related bias in representational similarity and a Bayesian treatment of that bias [16].
+
+Here, task-compatible compression preserves a specified action of the task rather than requiring recovery of every neural feature. The compatible set is defined over complete labelled model families, so identical numerical predictions can retain different mechanistic labels. Property identification then asks whether all surviving explanations agree. Hotelling’s multivariate mean distribution [26] supplies the finite-sample residual threshold under the sampling conditions in T26–T27. This statistical step converts a population relation into a conditional error-controlled declaration; the actual sampling unit and covariance remain part of the empirical design.
+
+## C4. Temporal recovery and the broader modelling programme
+
+Momennejad and Howard used known multiscale SRs to recover a coarse future timeline through an approximate inverse Laplace transform [11]. The quantitative results here address unknown discounts and weights. Independent propagation shapes or distinct visible rotation blocks constrain shared parameters, while a finite-memory task based on a binary de Bruijn construction [27] separates the observable lags into different matrix positions. Direct and learned reverse references then permit different forms of kernel recovery.
+
+The Discussion relates these results to the general question of what a successful fit establishes [17,20]. Its timing example refers to the models of Youguo Chen and colleagues [21,22]. Continuous parameter compensation is demonstrated analytically in the SR family studied here. The proposed use of Lie symmetries connects the broader programme to established symmetry-based work on identifiability and parameterization [23,24]. The mathematical results in this paper concern the stated SR families; the symmetry programme supplies a direction for constructing and comparing further model classes.

@@ -1,0 +1,23 @@
+{
+  "model": "pure single-discount SR on a centered 5-cycle",
+  "gamma": 0.5,
+  "C_P_minus_A_C_norm": 3.948201351209058e-16,
+  "A4_plus_A3_plus_A2_plus_A_plus_I_norm": 5.204192592040429e-16,
+  "finite_basis_fit_residual": 2.1149402582199232e-16,
+  "finite_basis_coefficients": [
+    0.967741935483871,
+    0.45161290322580644,
+    0.1935483870967742,
+    0.06451612903225806
+  ],
+  "positive_design_rank_after_current": 3,
+  "fitted_coordinate_moment_determinant": -0.008324661810613945,
+  "analytic_fitted_determinant": -0.008324661810613945,
+  "true_infinite_lag_coefficients": [
+    0.5,
+    0.25,
+    0.125
+  ],
+  "true_lag_moment_determinant": 0.0,
+  "interpretation": "The finite regression coordinates are identifiable but are not the actual first three infinite-kernel lag weights. Applying their moment determinant would falsely reject a genuine single-discount SR."
+}

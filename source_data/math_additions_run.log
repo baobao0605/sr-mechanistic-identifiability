@@ -1,0 +1,112 @@
+{
+  "scope": "Deterministic symbolic audit; no participant or neural observations",
+  "date": "2026-11-26",
+  "checks": {
+    "paley_six_dimensional_operator_alias": {
+      "exact": true,
+      "states": 7,
+      "contrast_dimension": 6,
+      "forward_target_discount": "3/10",
+      "forward_reference_discount": "4/5",
+      "apparent_backward_discount": "75/173",
+      "apparent_positive_gain": "634/519",
+      "restriction": "Both sides projected by H7; constant state direction is not aliased.",
+      "matrix_source": "paley_transition_matrix.csv"
+    },
+    "krylov_collision_polynomial": {
+      "exact": true,
+      "coefficients": [
+        "c - cp",
+        "alpha - alphap - c*d - c*g + cp*d + cp*g",
+        "-alpha*d + alphap*g + c*d*g - cp*d*g"
+      ]
+    },
+    "krylov_rank_two_compensation": {
+      "exact": true,
+      "resolvent_denominator": "-g**2*s - g*t + 1",
+      "alpha_at_new_discount": "alpha*(-d**2*s - d*t + 1)/(-g**2*s - g*t + 1)",
+      "c_at_new_discount": "alpha*s*(-d + g)/(-g**2*s - g*t + 1) + c"
+    },
+    "krylov_rank_three_observation": {
+      "exact": true,
+      "neural_map_rank": 1,
+      "propagation_shape_rank": 3,
+      "mean": [
+        "c",
+        "alpha",
+        "alpha*g"
+      ],
+      "interpretation": "One channel suffices here for gamma after three distinct propagation shapes; this is not full-operator recovery."
+    },
+    "quarter_turn_discount_alias": {
+      "exact": true,
+      "old": {
+        "gamma": "1/3",
+        "alpha": "5/2",
+        "c": "7/3"
+      },
+      "new": {
+        "gamma": "4/5",
+        "alpha": "369/100",
+        "c": "203/60"
+      },
+      "identical_mean": [
+        "11/12",
+        "73/12"
+      ]
+    },
+    "two_plane_inverse": {
+      "exact_ratio_derivative": true,
+      "exact_intermediate_inverse": true,
+      "derivative": "(1 - g**2)*(2*a1 - 2*a2)/(-2*a1*g + g**2 + 1)**2"
+    },
+    "eight_cycle_two_plane_lack_of_fit": {
+      "exact": true,
+      "gamma_forced_by_rotation_coefficients": "1/2",
+      "alpha_forced_by_rotation_coefficients": 1,
+      "u1": 1,
+      "u2": 1,
+      "v1": "4/5",
+      "v2": "(8 + 10*sqrt(2))/17",
+      "c1": "7/5",
+      "c2": "(2 - 6*sqrt(2))/17 + 1",
+      "realizability": "pi/2 and pi/4 Fourier blocks of an eight-state cycle"
+    },
+    "free_current_full_pattern_alias": {
+      "exact": true,
+      "discount": "1/2",
+      "future_gain": 5,
+      "forward_current": 1,
+      "backward_current": 3,
+      "reference_change": "B_prime = -B",
+      "relative_operator": [
+        [
+          "-15/17",
+          "8/17"
+        ],
+        [
+          "-8/17",
+          "-15/17"
+        ]
+      ]
+    },
+    "compatible_readout_intertwining": {
+      "exact": true,
+      "normalization_omitted_from_both_sides": true
+    },
+    "partial_discount_bound_table": {
+      "source": "Analytic sharp identified interval, evaluated deterministically",
+      "table": "partial_discount_bounds.csv",
+      "rows": 8,
+      "seventy_degree_lower_infimum": 0.4663076581549986
+    },
+    "hotelling_dimension_example": {
+      "n": 17,
+      "alpha": 0.05,
+      "K2": 0.4620951019511518,
+      "K4": 0.9206492821835836,
+      "scope": "Threshold illustration only; n=17 does not certify actual repeat independence."
+    }
+  },
+  "all_checks_passed": true
+}

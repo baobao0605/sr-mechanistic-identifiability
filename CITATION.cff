@@ -1,0 +1,18 @@
+cff-version: 1.2.0
+message: "Please cite the accompanying manuscript and original data sources when using this repository."
+title: "Identifying direction and temporal weighting in predictive cognitive maps: reproducibility materials"
+type: software
+authors:
+  - family-names: Ji
+    given-names: Yongzhang
+    affiliation: "Faculty of Psychology, Southwest University, Chongqing, China"
+    orcid: "https://orcid.org/0009-0006-4111-2000"
+repository-code: "https://github.com/baobao0605/sr-mechanistic-identifiability"
+version: 1.0.0
+date-released: 2026-11-26
+keywords:
+  - successor representation
+  - cognitive maps
+  - identifiability
+  - temporal weighting
+  - neuroscience

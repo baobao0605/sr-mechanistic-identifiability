@@ -1,0 +1,6 @@
+{
+  "utc": "2026-11-24T05:22:49.454992+00:00",
+  "reason": "All first-pass inner cross-validation alpha selections hit upper endpoint 1000 for all models/ROIs. Neither model ranking nor negative-history conclusion is adequately tuned. Preserve first-pass results as diagnostic only.",
+  "change": "Expand alpha to [1,10,100,1000,10000,100000] and allow equal nuisance-specific shrinkage multiplier [0,0.01,0.1,1] on all history features, with zero exactly embedding C. All comparisons/outer observations and heldout protections unchanged. Select 24 candidates with training-only inner folds; C six candidates. F negative control same 24 options.",
+  "result_status": "New analysis amendment made before inspecting amended results. This is an analytic sensitivity step, not preregistration."
+}

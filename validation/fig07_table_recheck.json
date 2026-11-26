@@ -1,0 +1,11 @@
+{
+  "passed": true,
+  "gain_percent": {
+    "early": 14.723054528524493,
+    "late": 26.87125453633059
+  },
+  "conditional_positive_rows": 3,
+  "physical_block_abstentions": 2,
+  "cross_record_abstentions": 1200,
+  "scope": "Archived endpoint aggregation, not measured-array refit or raw preprocessing."
+}

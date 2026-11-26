@@ -1,0 +1,33 @@
+{
+  "passed": true,
+  "all_conditions": 912,
+  "direction_conditions": 864,
+  "counts": [
+    {
+      "space": "full",
+      "total": 864,
+      "binary": 0,
+      "multiclass": 0
+    },
+    {
+      "space": "common_prediction",
+      "total": 864,
+      "binary": 6,
+      "multiclass": 6
+    },
+    {
+      "space": "common_prediction_current_removed",
+      "total": 864,
+      "binary": 80,
+      "multiclass": 77
+    }
+  ],
+  "multiclass_gate": {
+    "n": 77,
+    "old_visible_correct": 39,
+    "old_current": 37,
+    "old_symmetric": 1,
+    "matching_rule_correct": 77
+  },
+  "scope": "Reaggregation of archived tables and verification of saved sufficient inequalities."
+}

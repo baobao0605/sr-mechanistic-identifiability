@@ -1,0 +1,12 @@
+[
+  {
+    "file": "reference_archive/SR_real_data_full_report_20261123.pdf",
+    "bytes": 2200852,
+    "sha256": "95886eb37a1d592708f1cad8c7ef8652a40cc56aa6caed6bbabe712de79066f5"
+  },
+  {
+    "file": "reference_archive/SR_method_claims_evidence_20261123.csv",
+    "bytes": 10213,
+    "sha256": "ccd7dede11b600afc5853bd81aaaaab62a6af826f68d211894b605cd75cc934d"
+  }
+]

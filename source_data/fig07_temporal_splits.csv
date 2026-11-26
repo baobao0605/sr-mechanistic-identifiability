@@ -1,0 +1,9 @@
+key,session,block,window,controls,test_events,event_overlap,onset_gap_s
+Turner_s1_b0_early_all_local,1,0,early,491,492,0,1.19921875
+Turner_s1_b1_early_all_local,1,1,early,492,495,0,1.19921875
+Turner_s1_b0_late_all_local,1,0,late,491,492,0,1.19921875
+Turner_s1_b1_late_all_local,1,1,late,492,495,0,1.19921875
+Turner_s2_b0_early_all_local,2,0,early,491,492,0,1.19970703125
+Turner_s2_b1_early_all_local,2,1,early,492,495,0,1.19921875
+Turner_s2_b0_late_all_local,2,0,late,491,492,0,1.19970703125
+Turner_s2_b1_late_all_local,2,1,late,492,495,0,1.19921875

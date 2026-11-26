@@ -1,0 +1,22 @@
+{
+  "status": "analysis_contract_frozen_before_new_N35_matrix_outcomes",
+  "date": "2026-11-24",
+  "primary": [
+    "N35 offdiagonal localizer regression: cue+readout intercepts, circular distance categories, learned-pair indicator; temporal proximity and signed direction tested jointly",
+    "Holm correction over 2 ROI x 2 main contrasts; t test, sign flip, participant bootstrap",
+    "held-cue prediction with identical nuisance and candidate capacities",
+    "continuous S01/S02 reference repeat and actual event-history audit"
+  ],
+  "limits": [
+    "Localizer probabilities are calibrated outputs of a classifier, not a pure independent B",
+    "No clean prelearning reference in currently recovered package",
+    "N2 repeated observations are not extra population participants",
+    "pRF reconstruction reused localizer selection and weights",
+    "Pipeline-specific sensitivity is not an exact reproduction unless all original design/selection/filtering supplied"
+  ],
+  "hypotheses": [
+    "HP may show temporal structure after spatial/current adjustment; direction may not be identifiable",
+    "V1 original future-minus-past need not be caused by reference contamination",
+    "Learning-induced localizer structure must be distinguished from actual prior-stimulus HRF overlap"
+  ]
+}

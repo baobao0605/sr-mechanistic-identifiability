@@ -1,0 +1,58 @@
+{
+  "n_fold_conditions": 912,
+  "n_direction_conditions": 864,
+  "sse_identity_max_abs": 6.821210263296962e-13,
+  "binary_correct": 573,
+  "multi_correct": 489,
+  "bound_results": {
+    "binary_full_bound": {
+      "selected": 0,
+      "wrong": 0
+    },
+    "binary_U_bound": {
+      "selected": 6,
+      "wrong": 0
+    },
+    "binary_Q_U_bound": {
+      "selected": 80,
+      "wrong": 0
+    },
+    "binary_Q_U_tight": {
+      "selected": 283,
+      "wrong": 0
+    },
+    "multi_full_bound": {
+      "selected": 0,
+      "wrong": 0
+    },
+    "multi_U_bound": {
+      "selected": 6,
+      "wrong": 0
+    },
+    "multi_Q_U_bound": {
+      "selected": 77,
+      "wrong": 0
+    },
+    "multi_Q_U_tight": {
+      "selected": 228,
+      "wrong": 0
+    },
+    "gamma_far_full_bound": {
+      "selected": 0,
+      "wrong": 0
+    },
+    "gamma_far_U_bound": {
+      "selected": 0,
+      "wrong": 0
+    },
+    "gamma_far_Q_U_bound": {
+      "selected": 0,
+      "wrong": 0
+    },
+    "gamma_far_Q_U_tight": {
+      "selected": 0,
+      "wrong": 0
+    }
+  },
+  "scope": "Target-level nearest-family decision; not held-out parameter transfer, and oracle errors use known calibration transform plus observed paired means."
+}

@@ -1,0 +1,23 @@
+{
+  "figure": 8,
+  "size_mm": [
+    160,
+    160
+  ],
+  "languages": [
+    "ZH",
+    "EN"
+  ],
+  "panels": {
+    "a": "General model / psychological mechanism above; particular model / observed data below. Specification and observation are downward. Empirical fit is the lower horizontal relation; the upper mechanistic relation requires identification.",
+    "b": "On the shared two-dimensional state-contrast plane, exact identity G_+ = c I + alpha J (I-gamma J)^(-1) = I+J for c=1+gamma, alpha=1+gamma^2, J^2=-I, 0<=gamma<1. Analytic curves, not empirical or simulated data. P is not equated with J on the full stochastic state space.",
+    "c": "Property-wise sufficient/necessary conditions, lawful compatible explanations, additional independent experimental constraints, and quantitative targets. Inverse Lie-symmetry use is explicitly future work."
+  },
+  "fonts": [
+    "Noto Sans CJK SC",
+    "DejaVu Sans"
+  ],
+  "editable_svg_text": true,
+  "rendering": "Inkscape SVG export; PDF text converted to vector outlines to eliminate CJK font-subset rendering errors; source SVG text remains editable; no raster images embedded in PDF/SVG",
+  "notes": "Schematic scientific argument; panel a does not deny descriptive compatibility of a family containing a successful fitted instance."
+}

@@ -1,0 +1,3 @@
+# License scope
+
+The MIT license applies only to the original software in `code/` and the root reproduction utility, to the extent the author holds the necessary rights. It does not relicense manuscripts, figures, source data, participant-level measurements, third-party datasets, bibliographic materials or the historical archive. Historical code retains its original notices, and dependencies their own licenses. The public accessibility of a source dataset does not by itself establish permission to redistribute a derived measured array. The author may select a separate license for the preprint and original artwork. See `source_data/README_DATA.md` for optional local data.

@@ -1,0 +1,3 @@
+window,physical_blocks,mean_plane_mse,mean_zero_plane_mse,gain_percent,positive_blocks,source
+early,4,10.313988755627832,12.094697691860672,14.723054528524493,2,ratio of mean MSEs in fig07_reference_blocks.csv
+late,4,4.386881909397088,5.998847486829245,26.87125453633059,4,ratio of mean MSEs in fig07_reference_blocks.csv

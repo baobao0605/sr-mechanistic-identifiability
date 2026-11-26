@@ -1,0 +1,6 @@
+{
+  "revision": "v2_gamma_metadata",
+  "reason": "Active prediction can coexist with an entirely flat gamma loss profile (e.g. n=4 centered cyclic symmetric family). Do not report an arbitrary grid argmin as a gamma estimate.",
+  "tolerance": "profile range <= 1e-10 * training target squared norm",
+  "unchanged": "Fitted gains, losses, winning classes and all reported recovery counts. selected_grid_gamma retained for audit."
+}

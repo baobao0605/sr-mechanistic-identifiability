@@ -1,0 +1,13 @@
+metric,value,source
+participants,1.0,reconstructed from supplied session2_localizer.npz
+records_in_positive_context,1.0,reconstructed from supplied session2_localizer.npz
+physical_blocks_in_positive_record,2.0,reconstructed from supplied session2_localizer.npz
+complete_state_maps,38.0,reconstructed from supplied session2_localizer.npz
+training_state_maps,4.0,reconstructed from supplied session2_localizer.npz
+training_events,160.0,reconstructed from supplied session2_localizer.npz
+inference_events,1360.0,reconstructed from supplied session2_localizer.npz
+heldout_regrouped_pairs,17.0,reconstructed from supplied session2_localizer.npz
+maps_spanning_both_blocks,18.0,reconstructed from supplied session2_localizer.npz
+median_state_map_span_s,133.31787109375,reconstructed from supplied session2_localizer.npz
+states,40.0,reconstructed from supplied session2_localizer.npz
+channels,17.0,reconstructed from supplied session2_localizer.npz

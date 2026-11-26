@@ -1,0 +1,111 @@
+{
+  "generation": "Native SVG with editable text; Inkscape PDF/PNG export",
+  "date": "2026-11-25",
+  "unit_of_analysis": "Deterministic matrices and analytic model families; no participants",
+  "fig01": {
+    "task": "Directed cycle and seven-state Paley matrix",
+    "gamma_cycle": 0.8,
+    "max_distance_difference_float": 4.440892098500626e-16,
+    "max_Paley_alias_difference_float": 4.440892098500626e-16,
+    "Paley_centered_identity_exact_sympy": true,
+    "Paley_contrast_dimension": 6,
+    "constant_state_mode_excluded": true,
+    "source_data": [
+      "fig01_matrices.csv",
+      "fig01_cycle_edges.csv"
+    ],
+    "proofs": [
+      "T02/T03 geometric equality",
+      "T04 learned-reference alias"
+    ]
+  },
+  "fig02": {
+    "direct_family": "G=cI+alpha A(I-gamma A)^-1; c real; alpha nonnegative; 0<=gamma<1",
+    "compensation_for_I_plus_J": {
+      "alpha": "1+gamma^2",
+      "c": "1+gamma"
+    },
+    "free_current_alias": {
+      "gamma": 0.5,
+      "alpha": 5,
+      "c_F": 1,
+      "c_B": 3,
+      "B_F": "I2",
+      "B_B": "-I2"
+    },
+    "scale_mixture": {
+      "discounts": [
+        0.2,
+        0.8
+      ],
+      "weights": [
+        0.5,
+        0.5
+      ],
+      "gamma_effective": 0.43283582089552236,
+      "gain_effective": 0.9328358208955223
+    },
+    "source_data": [
+      "fig02_compensation.csv",
+      "fig02_alias_and_mixture.csv",
+      "fig02_complete_SR_curve.csv"
+    ],
+    "proofs": [
+      "T06 half-plane collapse",
+      "T07 common-map alias",
+      "single-plane complete-SR mixture identity"
+    ]
+  },
+  "fig03": {
+    "task_plane": "Q=[cos(pi*s/2), -sin(pi*s/2)]/2 for s=0..7",
+    "global_task_note": "P^3 is inverse to P only on the declared quarter-turn plane, not on all contrast modes.",
+    "discount_domain": "[0,1) for each condition",
+    "angle_band_endpoints": [
+      {
+        "family": "FF",
+        "lower_deg": 0,
+        "upper_deg": 90,
+        "lower_attained": true,
+        "upper_attained": false
+      },
+      {
+        "family": "BB",
+        "lower_deg": -90,
+        "upper_deg": 0,
+        "lower_attained": false,
+        "upper_attained": true
+      },
+      {
+        "family": "FB",
+        "lower_deg": -45,
+        "upper_deg": 45,
+        "lower_attained": false,
+        "upper_attained": false
+      },
+      {
+        "family": "BF",
+        "lower_deg": -45,
+        "upper_deg": 45,
+        "lower_attained": false,
+        "upper_attained": false
+      }
+    ],
+    "70_degree_discount_infimum_each": 0.4663076581549986,
+    "70_degree_joint_relation": "atan(gamma)+atan(eta)=70 degrees; infimum and supremum not attained",
+    "illustrative_interval_note": "[62,78] degrees is an assumed deterministic interval only, not real-data inference.",
+    "mixture_scope": "Outer sectors retain net direction under nonnegative complete-SR mixtures, but do not prove component purity.",
+    "source_data": [
+      "fig03_task_and_plane.csv",
+      "fig03_angle_bands.csv",
+      "fig03_partial_bounds.csv",
+      "fig03_phi70_joint_set.csv",
+      "fig03_illustrative_angle_interval.csv"
+    ],
+    "proofs": [
+      "T10/T11 common-plane design",
+      "T13 four-family angle images",
+      "T14 net-direction mixture extension",
+      "T15 sharp partial discount bounds"
+    ]
+  }
+}

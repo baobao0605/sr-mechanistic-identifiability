@@ -1,0 +1,88 @@
+{
+  "date": "2026-11-25",
+  "generation": "Native editable SVG; Inkscape PDF and PNG exports",
+  "unit_of_analysis": "Deterministic task matrices and analytic functions; no observed or simulated participants",
+  "fig04": {
+    "task": "8-cycle; Fourier frequencies k=2 and k=1",
+    "blocks": {
+      "a1": 0.0,
+      "beta1": 1.0,
+      "a2": 0.7071067811865475,
+      "beta2": 0.7071067811865475
+    },
+    "ratio": "q=(v1/beta1)/(v2/beta2)=D2/D1=1-sqrt(2)*gamma/(1+gamma^2)",
+    "example": {
+      "gamma": 0.5,
+      "alpha": 1.0,
+      "c": 0.9,
+      "q": 0.43431457505076204,
+      "t": 0.39999999999999997,
+      "gamma_recovered": 0.49999999999999994,
+      "c_from_block1": 0.9,
+      "c_from_block2": 0.9000000000000001
+    },
+    "one_channel_example": {
+      "full_states": 16,
+      "B_columns": 1,
+      "shape_rank": 3,
+      "embedding": "U=C4.T[:,1:]; P16 U=U J3; B_full=U e1",
+      "measurement_scope": "Known direct B; deterministic reduced-block example, not empirical neural recovery"
+    },
+    "sensitivity_scope": "Only the normalized rotation ratio is plotted; no claim of inevitable full-coefficient degeneracy.",
+    "source_data": [
+      "fig04_ratio_and_sensitivity.csv",
+      "fig04_eight_state_blocks.csv",
+      "fig04_three_propagation_shapes.csv"
+    ],
+    "proofs": [
+      "T17",
+      "T18",
+      "T19 embedding"
+    ]
+  },
+  "fig05": {
+    "task": "Four-bit binary de Bruijn shift with iid fair appended bit",
+    "states": 16,
+    "outgoing_edges_per_state": 2,
+    "transition_probability": 0.5,
+    "basis": "C[j,x]=(1-2*x[j])/4",
+    "contrast_block": "J4 with ones on the first lower subdiagonal",
+    "exact_symbolic_checks": [
+      "CP=J4C",
+      "CP^T=J4^TC",
+      "J4^4=0",
+      "T first column equals [1,gamma,gamma^2,gamma^3]"
+    ],
+    "direct_kernel": {
+      "single_gamma": 0.6,
+      "mixture_discounts": [
+        0.2,
+        0.85
+      ],
+      "mixture_weights": [
+        0.5,
+        0.5
+      ],
+      "mixture_moment_gap": 0.017956250000000007
+    },
+    "reverse_reference": {
+      "target_gamma": 0.6,
+      "reference_eta": 0.4,
+      "gain": 1,
+      "column_recovery": "T[h+1,1]=(a/q0)f[h]; q0 nonzero; direction additionally requires a/q0>0",
+      "not_allowed": "Do not apply the direct-reference subdiagonal antisymmetry statistic to this relative operator."
+    },
+    "scope": "Required operator entries must be observable; a two-dimensional direction readout does not automatically recover the four-dimensional kernel.",
+    "source_data": [
+      "fig05_task_basis_and_kernels.csv",
+      "fig05_states_edges.csv",
+      "fig05_lag_weights.csv",
+      "fig05_moment_checks.csv"
+    ],
+    "proofs": [
+      "T19",
+      "T20",
+      "T21"
+    ]
+  }
+}

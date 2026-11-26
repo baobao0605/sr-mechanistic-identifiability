@@ -1,0 +1,7 @@
+mode,dataset,conditions,frozen_label_unique_correct,frozen_label_not_uniquely_recovered,frozen_label_tied,frozen_label_tied_including_truth,frozen_label_tied_excluding_truth,frozen_label_unique_wrong,frozen_observed_unique_correct,frozen_observed_current_only,frozen_observed_symmetric,frozen_observed_tied,profile_observed_unique_correct,profile_not_uniquely_recovered,profile_tied,profile_unique_wrong,minimum_margin_minus_2error
+binary,all,80,76,4,1,1,0,3,42,38,0,0,80,0,0,0,0.0006738361177053842
+binary,Kern,30,27,3,0,0,0,3,27,3,0,0,30,0,0,0,0.03166565969734125
+binary,Turner,50,49,1,1,1,0,0,15,35,0,0,50,0,0,0,0.0006738361177053842
+multi,all,77,39,38,37,34,3,1,39,37,1,0,77,0,0,0,0.0006738361177053842
+multi,Kern,28,25,3,3,0,3,0,25,3,0,0,28,0,0,0,0.0103496884242118
+multi,Turner,49,14,35,34,34,0,1,14,34,1,0,49,0,0,0,0.0006738361177053842

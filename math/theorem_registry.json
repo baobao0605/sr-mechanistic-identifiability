@@ -1,0 +1,520 @@
+{
+  "date": "2026-11-26",
+  "numbering": "T01-T28",
+  "count": 28,
+  "theorems": [
+    {
+      "id": "T01",
+      "title_zh": "平稳状态对比与共同线性观测",
+      "type": "基础引理",
+      "status": "proved_with_explicit_scope",
+      "assumptions": [
+        "P 为行随机且有严格正平稳分布",
+        "各条件共用 B，正标量增益及状态无关偏置"
+      ],
+      "conclusion_zh": "平稳加权后的对比算子为压缩算子；时间反转对应转置；状态对比保留共同线性作用。",
+      "proof_file": "supplement/Theory_Appendix_ZH.md",
+      "proof_section": "A1",
+      "origin": "旧附录 S1",
+      "checks": [],
+      "limits_zh": "不能以通道固定或解码准确代替共同 B 假设。",
+      "proof_file_en": "supplement/Theory_Appendix_EN.md"
+    },
+    {
+      "id": "T02",
+      "title_zh": "规范几何等价的正规性充要条件",
+      "type": "定理",
+      "status": "proved_with_explicit_scope",
+      "assumptions": [
+        "双随机 P、相同非零折扣、完整规范欧氏行距离",
+        "非均匀扩展明确采用特征度量 D^−1"
+      ],
+      "conclusion_zh": "完整 SR 的前后几何相等 iff P 正规；纯未来版本包含零折扣；给出交换子范数上下界。",
+      "proof_file": "supplement/Theory_Appendix_ZH.md",
+      "proof_section": "A2",
+      "origin": "旧附录 S2.1–S2.3",
+      "checks": [],
+      "limits_zh": "不直接覆盖任意读出 B、相关距离、部分状态或独立折扣。",
+      "proof_file_en": "supplement/Theory_Appendix_EN.md"
+    },
+    {
+      "id": "T03",
+      "title_zh": "强不可逆与指数标记方向族的等距构造",
+      "type": "推论与构造",
+      "status": "proved_with_explicit_scope",
+      "assumptions": [
+        "循环状态至少3个",
+        "正交平面构造的系数足够小使转移非负"
+      ],
+      "conclusion_zh": "熵产生可无界而前后同几何；2^k 个标记方向矩阵全折扣同几何。",
+      "proof_file": "supplement/Theory_Appendix_ZH.md",
+      "proof_section": "A2",
+      "origin": "旧附录 S2.4",
+      "checks": [],
+      "limits_zh": "不声称图非同构计数或维数增长时统一分离。",
+      "proof_file_en": "supplement/Theory_Appendix_EN.md"
+    },
+    {
+      "id": "T04",
+      "title_zh": "直接参考方向正性、学习参考反号及 Paley 完整别名",
+      "type": "命题与反例",
+      "status": "proved_with_explicit_scope",
+      "assumptions": [
+        "共同映射、满行秩或所需算子可观测",
+        "直接参考与同图学习参考分别规定"
+      ],
+      "conclusion_zh": "同图学习参考测得 γ−η 的符号；Paley 全六维对比相对算子与合法后向 SR 严格相等。",
+      "proof_file": "supplement/Theory_Appendix_ZH.md",
+      "proof_section": "A2",
+      "origin": "旧附录 S3",
+      "checks": [
+        "code/math_checks.py",
+        "code/math_additions.py"
+      ],
+      "limits_zh": "别名不含常数状态方向；确定性均值相同不保证任意噪声分布相同。",
+      "proof_file_en": "supplement/Theory_Appendix_EN.md"
+    },
+    {
+      "id": "T05",
+      "title_zh": "观测纤维上的性质与学习转移锚定",
+      "type": "标准原则及 SR 推论",
+      "status": "proved_with_explicit_scope",
+      "assumptions": [
+        "预定合法完整参数空间和观测映射",
+        "学得转移集合的反转封闭性明确"
+      ],
+      "conclusion_zh": "性质可辨 iff 在各观测纤维上恒定；反转封闭的自由转移族使前后集合完全重合。",
+      "proof_file": "supplement/Theory_Appendix_ZH.md",
+      "proof_section": "A3",
+      "origin": "families_v0 第3节；标准可辨识性原则",
+      "checks": [],
+      "limits_zh": "不是一般可辨识性定义的首创声明。",
+      "proof_file_en": "supplement/Theory_Appendix_EN.md"
+    },
+    {
+      "id": "T06",
+      "title_zh": "单旋转平面直接广义 SR 的半平面塌缩",
+      "type": "定理",
+      "status": "proved_with_explicit_scope",
+      "assumptions": [
+        "已知单位圆旋转块、合格直接参考",
+        "c 任意实数，α≥0，γ∈[0,1)"
+      ],
+      "conclusion_zh": "前后族分别为 v 的闭半平面；非零参考可识别 u/v 与方向，但任意 γ 均可补偿；均值并集饱和。",
+      "proof_file": "supplement/Theory_Appendix_ZH.md",
+      "proof_section": "A3",
+      "origin": "families_v0 第5节；families_final_check",
+      "checks": [
+        "code/redraw_figures.py"
+      ],
+      "limits_zh": "α>0 时为开半平面；方向不保证组分纯度或几何核。",
+      "proof_file_en": "supplement/Theory_Appendix_EN.md"
+    },
+    {
+      "id": "T07",
+      "title_zh": "两学习条件自由当前项的全模式换向别名",
+      "type": "精确反例",
+      "status": "proved_with_explicit_scope",
+      "assumptions": [
+        "γ=1/2、α=5",
+        "前向 c=1，后向 c=3，未知共同基础映射可在模型间换为 −B"
+      ],
+      "conclusion_zh": "两个条件的全部模式和相对算子均相同，相对 T=(−15I−8J)/17。",
+      "proof_file": "supplement/Theory_Appendix_ZH.md",
+      "proof_section": "A3",
+      "origin": "readout_v0；families_final_check",
+      "checks": [
+        "code/math_additions.py"
+      ],
+      "limits_zh": "不适用于独立直接参考已固定 B 的问题。",
+      "proof_file_en": "supplement/Theory_Appendix_EN.md"
+    },
+    {
+      "id": "T08",
+      "title_zh": "任意实压缩块的互反方向定理",
+      "type": "定理",
+      "status": "proved_with_explicit_scope",
+      "assumptions": [
+        "A=S+K 为实压缩，K≠0",
+        "纯完整 SR，正增益，0≤γ,η<1，γ+η>0"
+      ],
+      "conclusion_zh": "FF 相对算子与 K 内积严格正，BB 严格负，规定对称候选为零。",
+      "proof_file": "supplement/Theory_Appendix_ZH.md",
+      "proof_section": "A4",
+      "origin": "旧附录 S4.1",
+      "checks": [
+        "code/math_checks.py"
+      ],
+      "limits_zh": "不包括条件切换族；严格符号不保证统一正噪声间隔。",
+      "proof_file_en": "supplement/Theory_Appendix_EN.md"
+    },
+    {
+      "id": "T09",
+      "title_zh": "非负额外当前项的已证范围",
+      "type": "命题",
+      "status": "proved_with_explicit_scope",
+      "assumptions": [
+        "完整 SR 加共用映射的非负当前项",
+        "二维块、任意维正规块或平方零块"
+      ],
+      "conclusion_zh": "在这些明确范围内互反方向符号保持。",
+      "proof_file": "supplement/Theory_Appendix_ZH.md",
+      "proof_section": "A4",
+      "origin": "旧附录 S4.2",
+      "checks": [],
+      "limits_zh": "不推广为任意高维非正规或自由当前/未来比例定理。",
+      "proof_file_en": "supplement/Theory_Appendix_EN.md"
+    },
+    {
+      "id": "T10",
+      "title_zh": "任意算子功能量可观测性的 W=WΠ 条件",
+      "type": "充要定理",
+      "status": "proved_with_explicit_scope",
+      "assumptions": [
+        "X1=T X0 精确成立",
+        "T 不受参数族限制"
+      ],
+      "conclusion_zh": "线性功能量 <T,W> 可辨 iff W=W X0X0+。",
+      "proof_file": "supplement/Theory_Appendix_ZH.md",
+      "proof_section": "A5",
+      "origin": "旧附录 S5.1",
+      "checks": [],
+      "limits_zh": "通道数足够只是必要计数；受限性质可以需要更少秩。",
+      "proof_file_en": "supplement/Theory_Appendix_EN.md"
+    },
+    {
+      "id": "T11",
+      "title_zh": "共同约化块及八循环 P/P³ 互反平面",
+      "type": "命题与任务构造",
+      "status": "proved_with_explicit_scope",
+      "assumptions": [
+        "预定共同约化块",
+        "八状态行循环且状态标签一致"
+      ],
+      "conclusion_zh": "CP=JC、CP³=−JC；完整标记秩2；得到精确互反符号式。",
+      "proof_file": "supplement/Theory_Appendix_ZH.md",
+      "proof_section": "A5",
+      "origin": "旧附录 S5.2–S6；readout_v0",
+      "checks": [
+        "code/math_checks.py"
+      ],
+      "limits_zh": "整图 P³≠Pᵀ；不能要求整图互反才应用共同块。",
+      "proof_file_en": "supplement/Theory_Appendix_EN.md"
+    },
+    {
+      "id": "T12",
+      "title_zh": "任务相容读出的交换关系与弱可见性",
+      "type": "定理",
+      "status": "proved_with_explicit_scope",
+      "assumptions": [
+        "训练后冻结同一个非零模板",
+        "真实关系限制为 uI+vJ"
+      ],
+      "conclusion_zh": "z_R 与 J 交换；det(x−,x+)=v||x−||²；非零真实参考投影即可识别符号。",
+      "proof_file": "supplement/Theory_Appendix_ZH.md",
+      "proof_section": "A5",
+      "origin": "readout_v0；既有 A+B 附录",
+      "checks": [
+        "code/math_additions.py"
+      ],
+      "limits_zh": "模板非零不保证正式信号非零；任意 PCA/分类器并非自动相容。",
+      "proof_file_en": "supplement/Theory_Appendix_EN.md"
+    },
+    {
+      "id": "T13",
+      "title_zh": "FF/BB/FB/BF 连续相对族的精确扇区",
+      "type": "定理",
+      "status": "proved_with_explicit_scope",
+      "assumptions": [
+        "quarter-turn J/−J",
+        "纯完整 SR、折扣范围[0,g]且g<1、自由正增益比"
+      ],
+      "conclusion_zh": "四族角度为[0,2h]、[−2h,0]、[−h,h]、[−h,h]；强相对角可排除切换族。",
+      "proof_file": "supplement/Theory_Appendix_ZH.md",
+      "proof_section": "A6",
+      "origin": "families_v0；families_final_check",
+      "checks": [
+        "code/redraw_figures.py"
+      ],
+      "limits_zh": "原 γ<1 开域的45度边界与闭包区分；正面积不等于 FF。",
+      "proof_file_en": "supplement/Theory_Appendix_EN.md"
+    },
+    {
+      "id": "T14",
+      "title_zh": "非负完整 SR 混合的净方向扇区",
+      "type": "命题",
+      "status": "proved_with_explicit_scope",
+      "assumptions": [
+        "各尺度/方向共享特征映射",
+        "有限非负混合、非负当前项、非零总算子"
+      ],
+      "conclusion_zh": "各条件 u>0 且|v|≤g u；四净方向扇区及强角判据保持。",
+      "proof_file": "supplement/Theory_Appendix_ZH.md",
+      "proof_section": "A6",
+      "origin": "readout_v0；families_v0",
+      "checks": [],
+      "limits_zh": "只识别净方向，不识别组分纯度。",
+      "proof_file_en": "supplement/Theory_Appendix_EN.md"
+    },
+    {
+      "id": "T15",
+      "title_zh": "纯完整 SR 双折扣的尖锐部分识别",
+      "type": "定理",
+      "status": "proved_with_explicit_scope",
+      "assumptions": [
+        "FF 纯完整 SR 且共享已知 quarter-turn",
+        "精确相对角、合法折扣范围及自由正增益"
+      ],
+      "conclusion_zh": "γ 的尖锐区间由 max(0,φ−h) 至 min(h,φ) 取 tan；无单位上界闭端点时 φ>45度给 γ,η>tan(φ−45度)。",
+      "proof_file": "supplement/Theory_Appendix_ZH.md",
+      "proof_section": "A6",
+      "origin": "本稿完整证明；由 T13 推出",
+      "checks": [
+        "code/math_additions.py"
+      ],
+      "limits_zh": "混合时只能解释为有效净系数界；需投影整个置信集合才有统计界。",
+      "proof_file_en": "supplement/Theory_Appendix_EN.md"
+    },
+    {
+      "id": "T16",
+      "title_zh": "单平面同方向多尺度与有效单折扣严格等价",
+      "type": "命题",
+      "status": "proved_with_explicit_scope",
+      "assumptions": [
+        "完整 SR 非负同方向混合与非负当前项",
+        "同一旋转块与共同映射"
+      ],
+      "conclusion_zh": "所有混合都可化为 g_eff F_γeff(J)。",
+      "proof_file": "supplement/Theory_Appendix_ZH.md",
+      "proof_section": "A6",
+      "origin": "readout_v0 第5节",
+      "checks": [
+        "code/redraw_figures.py"
+      ],
+      "limits_zh": "更多同平面模板不能辨别已经相同的核。",
+      "proof_file_en": "supplement/Theory_Appendix_EN.md"
+    },
+    {
+      "id": "T17",
+      "title_zh": "B/PB/P²B 传播形状独立 iff 广义直接 SR 折扣可辨",
+      "type": "充要定理",
+      "status": "proved_with_explicit_scope",
+      "assumptions": [
+        "已知 P，谱半径≤1；已知直接 B",
+        "自由 c∈R，严格正 α，γ∈[0,1)"
+      ],
+      "conclusion_zh": "三传播矩阵线性独立 iff c/α/γ 共同唯一；否则任意参数点与任意另一个合法 γ 均可精确匹配。",
+      "proof_file": "supplement/Theory_Appendix_ZH.md",
+      "proof_section": "A7",
+      "origin": "本稿完整证明及精确符号补充",
+      "checks": [
+        "code/math_additions.py"
+      ],
+      "limits_zh": "不是 B 的行秩；α=0、c 限制、未知 P/B 或相对参考时须另证。",
+      "proof_file_en": "supplement/Theory_Appendix_EN.md"
+    },
+    {
+      "id": "T18",
+      "title_zh": "两个不同旋转块的定量恢复与剩余检验",
+      "type": "定理",
+      "status": "proved_with_explicit_scope",
+      "assumptions": [
+        "不同 a1,a2、单位圆块、两个真实参考可见",
+        "两块共享同一 c/α/γ 且 α>0"
+      ],
+      "conclusion_zh": "旋转系数比单调唯一恢复 γ，再恢复 α/c；两个 c 必须相等构成剩余限制。",
+      "proof_file": "supplement/Theory_Appendix_ZH.md",
+      "proof_section": "A7",
+      "origin": "families_v0 第6节",
+      "checks": [
+        "code/math_additions.py"
+      ],
+      "limits_zh": "不允许跨块自由增益；不是任意时间核的唯一识别。",
+      "proof_file_en": "supplement/Theory_Appendix_EN.md"
+    },
+    {
+      "id": "T19",
+      "title_zh": "de Bruijn 随机任务的精确幂零约化块",
+      "type": "构造命题",
+      "status": "proved_with_explicit_scope",
+      "assumptions": [
+        "二元 k 位移位加独立公平新位",
+        "预定二元位对比"
+      ],
+      "conclusion_zh": "完整2^k状态双随机任务包含 k 阶幂零共同对比块。",
+      "proof_file": "supplement/Theory_Appendix_ZH.md",
+      "proof_section": "A7",
+      "origin": "旧附录 S7.1",
+      "checks": [
+        "code/math_checks.py"
+      ],
+      "limits_zh": "幂零的是对比块，非完整转移；图结构为经典基础。",
+      "proof_file_en": "supplement/Theory_Appendix_EN.md"
+    },
+    {
+      "id": "T20",
+      "title_zh": "直接参考下有限滞后核与正混合方差",
+      "type": "定理",
+      "status": "proved_with_explicit_scope",
+      "assumptions": [
+        "合格直接参考与相关算子量可观测",
+        "幂零块、共同映射的非负混合"
+      ],
+      "conclusion_zh": "ψh=awh；单几何核比例；正混合 w2²≤w1w3，标准化差等于重加权折扣方差。",
+      "proof_file": "supplement/Theory_Appendix_ZH.md",
+      "proof_section": "A7",
+      "origin": "旧附录 S7.2",
+      "checks": [
+        "code/math_checks.py"
+      ],
+      "limits_zh": "零折扣质量与无限尾部不可见；不同特征映射不受此矩约束。",
+      "proof_file_en": "supplement/Theory_Appendix_EN.md"
+    },
+    {
+      "id": "T21",
+      "title_zh": "反转已学习参考下第一列恢复时间核",
+      "type": "定理",
+      "status": "proved_with_explicit_scope",
+      "assumptions": [
+        "T=a f(J)q(Jᵀ)^−1，q0≠0",
+        "所需相对第一列或算子可观测"
+      ],
+      "conclusion_zh": "T_(h+1,1)=a f_h/q0；纯 SR 可分别恢复 a/γ/η。",
+      "proof_file": "supplement/Theory_Appendix_ZH.md",
+      "proof_section": "A7",
+      "origin": "旧附录 S7.4",
+      "checks": [
+        "code/math_checks.py"
+      ],
+      "limits_zh": "不可误用直接副对角线差；符号还需 a/q0>0。",
+      "proof_file_en": "supplement/Theory_Appendix_EN.md"
+    },
+    {
+      "id": "T22",
+      "title_zh": "相反方向地图混合与对称化转移的可分预测",
+      "type": "命题",
+      "status": "proved_with_explicit_scope",
+      "assumptions": [
+        "4阶幂零块",
+        "合法正折扣、正增益、共同标量当前项"
+      ],
+      "conclusion_zh": "两个零方向机制具有不同对角线预测。",
+      "proof_file": "supplement/Theory_Appendix_ZH.md",
+      "proof_section": "A7",
+      "origin": "旧附录 S7.3",
+      "checks": [
+        "code/math_checks.py"
+      ],
+      "limits_zh": "零方向统计不唯一确定对称机制。",
+      "proof_file_en": "supplement/Theory_Appendix_EN.md"
+    },
+    {
+      "id": "T23",
+      "title_zh": "历史滤波后瞻等价及 iid 探测控制",
+      "type": "定理",
+      "status": "proved_with_explicit_scope",
+      "assumptions": [
+        "平稳马尔可夫输入及线性指数历史滤波",
+        "控制结论另需 iid 独立探测、稳定反应和绝对可和滤波"
+      ],
+      "conclusion_zh": "当前码的历史条件均值精确等于后瞻 SR；iid 探测使历史贡献为状态无关项。",
+      "proof_file": "supplement/Theory_Appendix_ZH.md",
+      "proof_section": "A8",
+      "origin": "旧附录 S9",
+      "checks": [],
+      "limits_zh": "不放回排列、禁相邻重复、漂移及非线性不自动受控。",
+      "proof_file_en": "supplement/Theory_Appendix_EN.md"
+    },
+    {
+      "id": "T24",
+      "title_zh": "完整算子的确定性扰动界",
+      "type": "定理",
+      "status": "proved_with_explicit_scope",
+      "assumptions": [
+        "参考观测满行秩，最小奇异值s>e0",
+        "实际扰动满足预定 Frobenius 界"
+      ],
+      "conclusion_zh": "||T_hat−T||F≤(e1+||T_hat||2 e0)/(s−e0)，并给功能量界。",
+      "proof_file": "supplement/Theory_Appendix_ZH.md",
+      "proof_section": "A8",
+      "origin": "旧附录 S8",
+      "checks": [
+        "code/math_checks.py"
+      ],
+      "limits_zh": "不能称自动统计置信域；截断伪逆不沿用；浮点保护非区间算术。",
+      "proof_file_en": "supplement/Theory_Appendix_EN.md"
+    },
+    {
+      "id": "T25",
+      "title_zh": "连续族全局分离及局部判断",
+      "type": "命题",
+      "status": "proved_with_explicit_scope",
+      "assumptions": [
+        "非空紧致预测集合",
+        "完整闭误差球、统一预定范数"
+      ],
+      "conclusion_zh": "误差邻域不交 iff dFB>εF+εB；局部排除不要求全局正间隔；冻结正确点另加迁移h。",
+      "proof_file": "supplement/Theory_Appendix_ZH.md",
+      "proof_section": "A9",
+      "origin": "families_v0；既有dFB报告",
+      "checks": [
+        "code/empirical_check_dfb_tables.py"
+      ],
+      "limits_zh": "非紧集等号须另析；参考点估计不能直接继承覆盖。",
+      "proof_file_en": "supplement/Theory_Appendix_EN.md"
+    },
+    {
+      "id": "T26",
+      "title_zh": "联合均值残差反演与属性错误控制",
+      "type": "定理",
+      "status": "proved_with_explicit_scope",
+      "assumptions": [
+        "训练独立且处理冻结",
+        "真正 iid 高斯配对、n>q、残差协方差正定、真机制在候选族"
+      ],
+      "conclusion_zh": "Hotelling Kq 反演保留真实参数；唯一公共属性声明的错误且声明概率≤α。",
+      "proof_file": "supplement/Theory_Appendix_ZH.md",
+      "proof_section": "A9",
+      "origin": "joint_v0；joint_four_family_addendum_v0；经典Hotelling基础",
+      "checks": [],
+      "limits_zh": "不是选择后错误率；跨配对依赖、模型漏项与事后选择另处理。",
+      "proof_file_en": "supplement/Theory_Appendix_EN.md"
+    },
+    {
+      "id": "T27",
+      "title_zh": "K2 辅助椭球与 K4 联合均值域",
+      "type": "命题",
+      "status": "proved_with_explicit_scope",
+      "assumptions": [
+        "单模板四维协方差正定",
+        "K4 另要求 n>4；K2 残差理论 n>2"
+      ],
+      "conclusion_zh": "投影恒等式将K2残差反演化为辅助椭球；真正四维联合覆盖需K4。",
+      "proof_file": "supplement/Theory_Appendix_ZH.md",
+      "proof_section": "A9",
+      "origin": "joint_v0；joint_four_family_addendum_v0",
+      "checks": [
+        "code/math_additions.py"
+      ],
+      "limits_zh": "不可用K2辅助域控制未经另证的任意联合均值性质。",
+      "proof_file_en": "supplement/Theory_Appendix_EN.md"
+    },
+    {
+      "id": "T28",
+      "title_zh": "有向面积协方差偏差与参考漂移界",
+      "type": "命题",
+      "status": "proved_with_explicit_scope",
+      "assumptions": [
+        "面积偏差需有限交叉协方差",
+        "漂移半径须来自外部有效依据；统计结论需真实联合覆盖域"
+      ],
+      "conclusion_zh": "面积偏差为交叉协方差反对称部分；最坏漂移余量 det(b,y)−ρ||y||，临界ρ*=|det|/||y||。",
+      "proof_file": "supplement/Theory_Appendix_ZH.md",
+      "proof_section": "A9",
+      "origin": "joint_v0；joint_four_family_addendum_v0",
+      "checks": [],
+      "limits_zh": "扫描ρ是敏感性而非真实漂移认证；y=0 的临界式不定义。",
+      "proof_file_en": "supplement/Theory_Appendix_EN.md"
+    }
+  ]
+}

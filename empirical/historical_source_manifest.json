@@ -1,0 +1,52 @@
+[
+  {
+    "file": "source_data/historical_design_diagnostics.csv",
+    "archive_path": "sr_dfb_round3_20261124/prior/sr_round2_20261124/math/design_diagnostics.csv",
+    "sha256": "161395395247dc8fe815849647f2f22f68030b7564ac40793a1a9b294dafd8f8"
+  },
+  {
+    "file": "source_data/historical_calibration_selection.csv",
+    "archive_path": "sr_dfb_round3_20261124/prior/sr_round2_20261124/math/calibration_selection.csv",
+    "sha256": "c40d9ace9e2a4c11c02318263c1b0e1a9d703d860a3c53247195c9518e716520"
+  },
+  {
+    "file": "source_data/historical_localizer_unique_group.csv",
+    "archive_path": "sr_dfb_round3_20261124/prior/sr_round2_20261124/ekman/localizer_unique_group.csv",
+    "sha256": "42269dbafbc9b898f1f602a0f9e7d170aa53907da84d95b15cc7a8e299147aa2"
+  },
+  {
+    "file": "source_data/historical_localizer_history_prediction_summary.csv",
+    "archive_path": "sr_dfb_round3_20261124/prior/sr_round2_20261124/ekman/localizer_history_prediction_summary.csv",
+    "sha256": "48b92611e4dfd84beba9996d2072ff887b6ed184e96e0a663c90b8c664a4198d"
+  },
+  {
+    "file": "source_data/historical_actual_history_mixing_summary.csv",
+    "archive_path": "sr_dfb_round3_20261124/prior/sr_round2_20261124/ekman/actual_history_mixing_summary.csv",
+    "sha256": "2faa67515fb3814bf2460f21d7f939b040d7b8bde31e44e2a01c8a97cf374f99"
+  },
+  {
+    "file": "source_data/historical_allen_timebins_summary.csv",
+    "archive_path": "sr_dfb_round3_20261124/prior/sr_round2_20261124/history/allen_timebins_summary.csv",
+    "sha256": "35b4d554f4e14415c9aeddc518a1bf048f7cd1b3428cfb2ab2439eba198a8d5b"
+  },
+  {
+    "file": "source_data/historical_allen_timebins_fold_improvements.csv",
+    "archive_path": "sr_dfb_round3_20261124/prior/sr_round2_20261124/history/allen_timebins_fold_improvements.csv",
+    "sha256": "a228a1ee00dc724433edf85f779f67210d866b192937cc47d3bc09568b74cd27"
+  },
+  {
+    "file": "source_data/historical_fastimages_kernel_summary.csv",
+    "archive_path": "sr_dfb_round3_20261124/prior/sr_round2_20261124/history/fastimages_kernel_summary.csv",
+    "sha256": "ef93b297c87447ddf2e9163495852ae47ccc93927f506f05452762b6bc72327f"
+  },
+  {
+    "file": "source_data/historical_fastimages_kernel_discrimination_geometry.csv",
+    "archive_path": "sr_dfb_round3_20261124/prior/sr_round2_20261124/history/fastimages_kernel_discrimination_geometry.csv",
+    "sha256": "4b2cc523825bad19b470f36d4fedf5fd9aff740430d5e659145544f2e1aca902"
+  },
+  {
+    "file": "source_data/historical_claims_evidence.csv",
+    "archive_path": "sr_dfb_round3_20261124/prior/sr_round2_20261124/claims_evidence.csv",
+    "sha256": "7e73e1d3523bb7a74e7cd792cb4d40e26a5fc9b29798eac4926372ae7358881a"
+  }
+]

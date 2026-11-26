@@ -1,0 +1,29 @@
+{
+  "version": 2,
+  "date": "2026-11-24",
+  "status": "COMPLETE",
+  "old_snapshot": "v1_before_reference_ball_fix/",
+  "solver_sha256": "4fc19dd2e9a57a6f0d3e940f2715b8a1772e7d067b5ece20e759d99676577530",
+  "old_solver_sha256": "269b5386850d357b1e3b969803843dd8f3f576f34be6c10ec04a2be146dd3711",
+  "author_checks": "reference_ball_v2_checks.json",
+  "independent_checks": "../reviews/ekman_recheck_math_solver.json",
+  "real_result_comparison": "../reviews/compatibility_after_solver.json",
+  "moment_coordinate_symbolic_checks": "moment_coordinate_checks.json",
+  "original_summary_values_except_status_unchanged": true,
+  "figure_visual_qa": "Updated SSP caveat visibly rendered in figure_observability; no clipping or overlap found.",
+  "scope": [
+    "rank-deficient solver bug",
+    "e0=0 endpoint",
+    "compactness quantifier",
+    "prior SSP scope",
+    "lag moments versus finite basis coordinates"
+  ],
+  "unchanged": [
+    "Kern/Turner observations",
+    "splits",
+    "fit code",
+    "calibration grid",
+    "all main CSV outputs",
+    "original theoretical gamma-identifiability results"
+  ]
+}

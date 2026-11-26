@@ -1,0 +1,75 @@
+{
+  "date": "2026-11-25",
+  "input_root": "SR_AB_20261125",
+  "input_hashes": [
+    {
+      "relative_path": "B_reference/source_data/all_control_reference_losses.csv",
+      "sha256": "5a74993bf587186fa09ecfeb47087227b6b2140c025971b9ddeb917985bc42e9"
+    },
+    {
+      "relative_path": "B_reference/source_data/all_control_reference_summary.csv",
+      "sha256": "8ce9ee621e432bba6ffc43e2b11d787e81dd26dbe34944c06ba3ba1baa726c75"
+    },
+    {
+      "relative_path": "B_reference/source_data/all_control_and_deployment_B.npz",
+      "sha256": "07c70e992b8aee07e1b00c658ad77f81eea224e496babfedc30378a5217764d9"
+    },
+    {
+      "relative_path": "prior/sr_errorbounds_round4_20261124/inputs/round3/prior/restored/complete/analysis/D08/session1_localizer.npz",
+      "sha256": "b3242dbbe34b8e4ce16e28d03c239116c69665c7b83a9a248455f1eb7fe78375"
+    },
+    {
+      "relative_path": "prior/sr_errorbounds_round4_20261124/inputs/round3/prior/restored/complete/analysis/D08/session2_localizer.npz",
+      "sha256": "7a2414901ece2a1490b0fa4a445b5cca4d9cc9c35b3c9ada26ce0d86b968d846"
+    },
+    {
+      "relative_path": "theory_joint/J01_all_positive_audit.csv",
+      "sha256": "72f1bbd256b1f8a14f5123fc1ee4c0885fee4833f48a018345a4225fa4e2d4c8"
+    },
+    {
+      "relative_path": "joint_integration/source_data/joint_readouts.npz",
+      "sha256": "e29c6683665c376a3a19ff410883e419d37e850bcb5668ff5053984202ea81e6"
+    },
+    {
+      "relative_path": "A_measurement/integration_review/physical_block_decomposition.csv",
+      "sha256": "b32ebca001afc3cb6175b8d08e2154c43aa154423ffd9bdd859bac55d5127f26"
+    },
+    {
+      "relative_path": "joint_integration/source_data/transport_stress_results.csv",
+      "sha256": "b424a1bcb36ab412f3a8229ef1f8d3fea5c1a7955269a6db4eae7f4c8730d26e"
+    }
+  ],
+  "current_recomputation": {
+    "reference_contexts": 8,
+    "reference_estimator_checks": 40,
+    "maximum_matrix_error": 0.0,
+    "maximum_metric_error": 3.552713678800501e-15,
+    "joint_contexts": 2,
+    "maximum_joint_readout_error": 0.0,
+    "event_overlap": 0,
+    "raw_eeg_preprocessing_rerun": false
+  },
+  "acquisition_hierarchy": {
+    "participants": 1,
+    "records_in_positive_context": 1,
+    "physical_blocks_in_positive_record": 2,
+    "complete_state_maps": 38,
+    "training_state_maps": 4,
+    "training_events": 160,
+    "inference_events": 1360,
+    "heldout_regrouped_pairs": 17,
+    "maps_spanning_both_blocks": 18,
+    "median_state_map_span_s": 133.31787109375,
+    "states": 40,
+    "channels": 17
+  },
+  "transport_conditions": 1200,
+  "transport_all_abstain": true,
+  "qualifications": [
+    "Previously derived measured EEG arrays, not raw EEG refit.",
+    "The B refit executes the prior independent implementation; not a third independent algorithm.",
+    "No iid, Gaussianity, population performance or endogenous SR claim follows from numerical reproduction.",
+    "Early 100–150 ms and late 200–250 ms window bounds come from the prior statistical appendix; arrays retain named windows only.",
+    "Participant ID13 is inherited from the prior A report; no participant identifier is embedded in NPZ arrays."
+  ]
+}

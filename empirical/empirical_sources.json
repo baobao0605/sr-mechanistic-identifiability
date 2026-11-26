@@ -1,0 +1,53 @@
+{
+  "audit_date": "2026-11-25",
+  "Turner": {
+    "authors": [
+      "Turner W",
+      "Sexton C",
+      "Johnson PA",
+      "Wilson EM",
+      "Hogendoorn H"
+    ],
+    "year": 2025,
+    "title": "Predictable motion is progressively extrapolated across temporally distinct processing stages in the human visual cortex",
+    "journal": "PLOS Biology",
+    "volume": 23,
+    "issue": 5,
+    "article": "e3003189",
+    "doi": "10.1371/journal.pbio.3003189",
+    "primary_url": "https://journals.plos.org/plosbiology/article?id=10.1371/journal.pbio.3003189",
+    "public_data": "https://osf.io/sn4a7/",
+    "public_code": "https://github.com/bootstrapbill/neural-location-decoding",
+    "code_version_archive": "https://zenodo.org/records/15283636",
+    "code_concept_doi": "10.5281/zenodo.15283635",
+    "read_scope": [
+      "Data Availability",
+      "Results: Characterizing location-specific neural activity, Figure 1",
+      "Methods: Participants, Stimuli, Task, EEG acquisition and pre-processing, LDA-based mapping"
+    ],
+    "web_refs": [
+      "turn372161743view0",
+      "turn846292123view1"
+    ],
+    "locators": [
+      "Data Availability, source lines 150",
+      "Results and Figure 1, source lines 170-182",
+      "Methods: Stimuli/Task, source lines 352-361",
+      "Methods: LDA mapping, source line 382"
+    ],
+    "distinction": "Original N=18; current selected calibration subset is one participant and two recordings."
+  },
+  "window_provenance": {
+    "archive_member": "SR_AB_20261125/prior/sr_errorbounds_round4_20261124/SR_statistical_bounds_appendix_zh.md",
+    "member_sha256": "432ce8a9023f114806cbd651b6b5e44bc7ea7fa5ed594919667db7cf92b470a1",
+    "specific_statement": [
+      {
+        "line": 1225,
+        "text": "本轮特征是原先固定的早期 100–150 ms 或晚期 200–250 ms 窗口均值，减去 −200–0 ms 基线。真实输入的事件间隔中位数分别为 0.19921875 秒和 0.19970703125 秒。"
+      }
+    ],
+    "limits": "Feature-cache NPZ contains named windows only; the raw feature-extraction script and sample-index bounds were not recovered in this audit."
+  },
+  "excerpt_sha256": "1c4cdfeb625a195530f8a08b685a03f7f654a8d033b9db37e3152308f87f60ff",
+  "identity_limit": "Prior A report identifies ID13; source NPZ has no participant ID field. Figure labels one participant without claiming that file-ID mapping was independently reconstructed."
+}

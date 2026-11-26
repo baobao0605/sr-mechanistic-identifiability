@@ -1,0 +1,19 @@
+{
+  "stage": "Targeted follow-up after actual event imbalance was established; no outcome-based model or fold selection",
+  "test": "8 chronological rounds, each with all 8 locations. Exclude adjacent chronological rounds from outer training. Inner leave-one-round tuning among remaining training rounds.",
+  "models": [
+    "current state + after-null + elapsed time",
+    "same + previous actually presented location",
+    "same + next location negative/control (author highpass is noncausal)",
+    "same-size physical current+history design with HRF mean4/6/8 chosen using only training"
+  ],
+  "ridge_grid": [
+    0.0,
+    0.1,
+    1.0,
+    10.0,
+    100.0
+  ],
+  "units": "percent-signal-change raw anatomical ROI windows; all voxels retained, no main-task outcome selection",
+  "scope": "Prediction of measured localizer windows and sensitivity of reference construction. This is not a test that cognitive SR is present or absent."
+}

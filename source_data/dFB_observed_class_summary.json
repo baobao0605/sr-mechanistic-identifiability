@@ -1,0 +1,49 @@
+{
+  "n_direction_conditions": 864,
+  "boundary_rule": "Predictive gain <= 1e-12 or current-equivalent shape maps to current; same rule as target-refit profile. Original label columns preserved.",
+  "whole_sample": {
+    "binary": {
+      "old_label_unique_correct": 495,
+      "old_observed_unique_correct": 371,
+      "profile_observed_unique_correct": 573
+    },
+    "multi": {
+      "old_label_unique_correct": 293,
+      "old_observed_unique_correct": 293,
+      "profile_observed_unique_correct": 489
+    }
+  },
+  "paired_gates": {
+    "binary": {
+      "conditions": 80,
+      "old_label_unique_correct": 76,
+      "old_observed_unique_correct": 42,
+      "old_observed_tied": 0,
+      "old_observed_unique_wrong": 38,
+      "old_label_correct_but_current": 34,
+      "old_observed_current_only": 38,
+      "old_observed_symmetric": 0,
+      "old_observed_opposite_direction": 0,
+      "profile_observed_unique_correct": 80
+    },
+    "multi": {
+      "conditions": 77,
+      "old_label_unique_correct": 39,
+      "old_observed_unique_correct": 39,
+      "old_observed_tied": 0,
+      "old_observed_unique_wrong": 38,
+      "old_label_correct_but_current": 0,
+      "old_observed_current_only": 37,
+      "old_observed_symmetric": 1,
+      "old_observed_opposite_direction": 0,
+      "profile_observed_unique_correct": 77
+    }
+  },
+  "aggregate_conditions": {
+    "n": 216,
+    "binary_label_unique_correct": 145,
+    "binary_visible_unique_correct": 145,
+    "multi_label_unique_correct": 74,
+    "multi_visible_unique_correct": 74
+  }
+}

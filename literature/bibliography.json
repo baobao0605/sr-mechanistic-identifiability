@@ -1,0 +1,746 @@
+[
+  {
+    "id": "Dayan1993",
+    "title": "Improving Generalization for Temporal Difference Learning: The Successor Representation",
+    "authors": [
+      "Peter Dayan"
+    ],
+    "year": 1993,
+    "journal": "Neural Computation",
+    "volume": "5",
+    "pages": "613–624",
+    "doi": "10.1162/neco.1993.5.4.613",
+    "primary_url": "https://www.gatsby.ucl.ac.uk/~dayan/papers/sr93.pdf",
+    "web_refs": [
+      "turn371936107view0"
+    ],
+    "local_source": "../sr_story_20261125/sources/Dayan93.pdf",
+    "read_scope": [
+      "Scientific body sections 1–5",
+      "Equations 2.1 and 3.1 and discounted extension",
+      "Navigation simulations; Figures 1–4 and Discussion"
+    ],
+    "visual_check": "Main text and captions; no separate render used",
+    "unread_or_unverified": [
+      "Cited external convergence proofs not independently read"
+    ],
+    "status": "Published original theory; computational illustrations",
+    "reference_number": 1
+  },
+  {
+    "id": "Stachenfeld2017",
+    "title": "The hippocampus as a predictive map",
+    "authors": [
+      "Kimberly L. Stachenfeld",
+      "Matthew M. Botvinick",
+      "Samuel J. Gershman"
+    ],
+    "year": 2017,
+    "journal": "Nature Neuroscience",
+    "volume": "20",
+    "pages": "1643–1653",
+    "doi": "10.1038/nn.4650",
+    "primary_url": "https://www.nature.com/articles/nn.4650",
+    "fulltext_url": "https://gershmanlab.com/pubs/Stachenfeld17.pdf",
+    "correction_doi": "10.1038/s41593-018-0133-1",
+    "correction_url": "https://www.nature.com/articles/s41593-018-0133-1",
+    "correction_content": "Equation 7 denominator changed from I − gamma T^t to I − gamma T; corrected author PDF read.",
+    "web_refs": [
+      "turn371936107view1",
+      "turn912970022search2",
+      "turn912970022search3"
+    ],
+    "local_source": "../sr_story_20261125/sources/Stachenfeld17.pdf",
+    "read_scope": [
+      "Main text pp. 1643–1652",
+      "Online Methods",
+      "Figures 1–8 captions",
+      "Equations 3 and 4–8"
+    ],
+    "visual_check": "Independently rendered and inspected PDF pp. 2–3, Figures 1–2",
+    "unread_or_unverified": [
+      "Supplementary Note and Figures 1–19 not independently read; supplemental claims recorded only as main-text reports"
+    ],
+    "status": "Published original theory and simulations; corrected version",
+    "reference_number": 2
+  },
+  {
+    "id": "Gershman2012",
+    "title": "The Successor Representation and Temporal Context",
+    "authors": [
+      "Samuel J. Gershman",
+      "Christopher D. Moore",
+      "Michael T. Todd",
+      "Kenneth A. Norman",
+      "Per B. Sederberg"
+    ],
+    "year": 2012,
+    "journal": "Neural Computation",
+    "volume": "24",
+    "issue": "6",
+    "pages": "1553–1568",
+    "doi": "10.1162/NECO_a_00282",
+    "primary_url": "https://gershmanlab.com/pubs/Gershman12.pdf",
+    "metadata_url": "https://pubmed.ncbi.nlm.nih.gov/22364500/",
+    "web_refs": [
+      "turn371936107view2",
+      "turn912970022search0"
+    ],
+    "local_source": "private_sources/Gershman12.pdf",
+    "read_scope": [
+      "Scientific body sections 1–6",
+      "Equations 2.1–4.3",
+      "Figures 1–2 and Discussion"
+    ],
+    "visual_check": "Independently rendered and inspected PDF p. 11, Figure 2",
+    "unread_or_unverified": [
+      "No independent rerun of recall simulations"
+    ],
+    "status": "Published formal connection plus discriminating simulations; new predictions not empirically tested in the paper",
+    "reference_number": 3
+  },
+  {
+    "id": "Momennejad2017",
+    "title": "The successor representation in human reinforcement learning",
+    "authors": [
+      "Ida Momennejad",
+      "Evan M. Russek",
+      "J. H. Cheong",
+      "Matthew M. Botvinick",
+      "Nathaniel D. Daw",
+      "Samuel J. Gershman"
+    ],
+    "year": 2017,
+    "journal": "Nature Human Behaviour",
+    "volume": "1",
+    "pages": "680–692",
+    "doi": "10.1038/s41562-017-0180-8",
+    "primary_url": "https://www.nature.com/articles/s41562-017-0180-8",
+    "fulltext_url": "https://gershmanlab.opalstacked.com/pubs/Momennejad17.pdf",
+    "web_refs": [
+      "turn371936107view3"
+    ],
+    "local_source": "private_sources/Momennejad17.pdf",
+    "read_scope": [
+      "Introduction, Results of both experiments and alternative explanations",
+      "Discussion",
+      "Methods pp. 688–691 including exclusion and cross-validation",
+      "Equations 1–6 and Figure 6 task structure"
+    ],
+    "visual_check": "Independently rendered and inspected PDF p. 7, Figure 6",
+    "unread_or_unverified": [
+      "Raw behavioral data and code not obtained or rerun",
+      "Supplementary experimental screenshots not independently read"
+    ],
+    "status": "Published human behavioral experiments and model comparisons; specific SR-Dyna implementation not adjudicated",
+    "reference_number": 4
+  },
+  {
+    "id": "Garvert2017",
+    "authors": [
+      "Mona M. Garvert",
+      "Raymond J. Dolan",
+      "Timothy E. J. Behrens"
+    ],
+    "year": 2017,
+    "title": "A map of abstract relational knowledge in the human hippocampal–entorhinal cortex",
+    "journal": "eLife",
+    "volume": "6",
+    "pages_or_article": "e17086",
+    "published": "2017-04-27",
+    "doi": "10.7554/eLife.17086",
+    "primary_url": "https://elifesciences.org/articles/17086",
+    "full_text_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC5407855/fullTextXML",
+    "pmcid": "PMC5407855",
+    "local_private_file": "private_sources/Garvert2017.xml",
+    "read_scope": [
+      "Introduction",
+      "Results",
+      "Discussion",
+      "Stimuli and task",
+      "fMRI data analysis",
+      "Behavioural experiment",
+      "Figures 1–5 and relevant supplement captions"
+    ],
+    "locators": [
+      "Figure 1: training graph and scan subset",
+      "Figure 3B–C: empirical directional versus symmetrized distance",
+      "Figure 4 and Figure 4 supplement 1: communicability and adjacency resolvent",
+      "Methods: minimum three intervening objects before a repetition"
+    ],
+    "safe_claims_zh": [
+      "隐性学习后的 fMRI adaptation 与离散关系结构相关",
+      "论文主动检验并支持对称关系距离，不能被描述为一次前瞻方向误判",
+      "神经适应模型使用邻接矩阵函数，不能直接等同于行归一化经验转移矩阵"
+    ],
+    "our_extension_zh": "明确关系几何与时间方向算子可辨识性的不同，并界定标准可逆图与实际历史约束序列的区别",
+    "do_not_claim": [
+      "Original paper established a forward-only direction",
+      "The actual constrained training process was proven to be a stationary first-order reversible chain"
+    ],
+    "access_limits": "No reanalysis of raw fMRI or trial sequences in this audit",
+    "reference_number": 5
+  },
+  {
+    "id": "BrunecMomennejad2022",
+    "authors": [
+      "Iva K. Brunec",
+      "Ida Momennejad"
+    ],
+    "year": 2022,
+    "title": "Predictive representations in hippocampal and prefrontal hierarchies",
+    "journal": "Journal of Neuroscience",
+    "volume": "42",
+    "issue": "2",
+    "pages_or_article": "299–312",
+    "doi": "10.1523/JNEUROSCI.1327-21.2021",
+    "primary_url": "https://www.jneurosci.org/content/42/2/299",
+    "full_text_url": "https://www.momen-nejad.org/_files/ugd/a6d7e4_01f7c8ad2c27463a97f7e0f17b72e008.pdf",
+    "local_private_file": "private_sources/Brunec2022.pdf",
+    "web_refs": [
+      "turn760191909view3",
+      "turn703916656view1"
+    ],
+    "read_scope": [
+      "Primary paper pp.299–311",
+      "Methods and Eq.4",
+      "All Results",
+      "Figures 1–9 captions",
+      "Discussion: Caveats and future directions; Other interpretations"
+    ],
+    "locators": [
+      "p.303 after Eq.4: lack of pretraining state patterns and approximation",
+      "Figures 3–6: mean and discounted future-pattern similarity",
+      "Figure 9: distance-matched control",
+      "p.310: multiple past/future paths proposed to distinguish memory from prediction"
+    ],
+    "safe_claims_zh": [
+      "自然导航中观察到海马—前额叶表征尺度层级",
+      "作者明确说明未来图样相似性是缺少学习前状态参考时的近似",
+      "作者建议多路径设计，但未完成本文的完整算子族分离定理"
+    ],
+    "our_extension_zh": "为学习后参考下的相似性解释提供严格的观测模型、交叠反例、实验条件及有限误差判断",
+    "do_not_claim": [
+      "Original authors were unaware of memory-versus-prediction confounding",
+      "The paper uniquely estimated continuous discount rates"
+    ],
+    "access_limits": "No raw-data reanalysis in this audit",
+    "reference_number": 6
+  },
+  {
+    "id": "Ekman2023",
+    "authors": [
+      "Matthias Ekman",
+      "Sarah Kusch",
+      "Floris P. de Lange"
+    ],
+    "year": 2023,
+    "title": "Successor-like representation guides the prediction of future events in human visual cortex and hippocampus",
+    "journal": "eLife",
+    "volume": "12",
+    "pages_or_article": "e78904",
+    "published": "2023-02-02",
+    "doi": "10.7554/eLife.78904",
+    "primary_url": "https://elifesciences.org/articles/78904",
+    "full_text_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC9894584/fullTextXML",
+    "pmcid": "PMC9894584",
+    "local_private_file": "private_sources/Ekman2023.xml",
+    "web_refs": [
+      "turn301369030search0",
+      "turn301369030search1"
+    ],
+    "read_scope": [
+      "Full main text",
+      "All relevant Methods",
+      "Figures 3–6 and Figure 5 supplement",
+      "Public decision letters and author responses including flat-forward and SR-versus-MB comparisons"
+    ],
+    "locators": [
+      "Figure 3 and Anticipated stimulus sequences in V1: direct successor–predecessor contrast",
+      "Figure 5: hippocampal direct contrast",
+      "Figure 6: actual post-learning localizer temporal tuning analysis",
+      "Methods Experimental design: localizer after task",
+      "Author response Reviewer #3 point 1: actual BIC comparison against flat-forward prediction",
+      "Final review response: inability to separate cached SR from MB online computation"
+    ],
+    "safe_claims_zh": [
+      "遗漏探针直接比较了未来和过去位置证据",
+      "学习后定位器中的海马时间调谐已经由原作者分析",
+      "公开审稿回复报告了平坦前向预测与 SR 的实际模型比较",
+      "作者明确承认当前任务无法区分缓存 SR 与在线 MB 算法"
+    ],
+    "our_extension_zh": "审计参考及读出能否支持从内容差异进入完整算子推断；不是宣判原方向结论错误",
+    "do_not_claim": [
+      "Observed post-learning structure proves the exact alias assumed in our counterexample",
+      "Original authors made a demonstrated forward/backward direction error",
+      "Logistic classifier probabilities are automatically linear operator coordinates"
+    ],
+    "dataset_doi": "10.34973/bsy6-9h29",
+    "access_limits": "Raw-data results from prior project audits are separate from this literature audit",
+    "reference_number": 7
+  },
+  {
+    "id": "TarderStoll2024",
+    "authors": [
+      "Hannah Tarder-Stoll",
+      "Christopher Baldassano",
+      "Mariam Aly"
+    ],
+    "year": 2024,
+    "title": "The brain hierarchically represents the past and future during multistep anticipation",
+    "journal": "Nature Communications",
+    "volume": "15",
+    "pages_or_article": "9094",
+    "published": "2024-10-22",
+    "doi": "10.1038/s41467-024-53293-3",
+    "primary_url": "https://www.nature.com/articles/s41467-024-53293-3",
+    "full_text_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC11496687/fullTextXML",
+    "pmcid": "PMC11496687",
+    "local_private_file": "private_sources/Tarder2024.xml",
+    "web_refs": [
+      "turn301369030search3"
+    ],
+    "read_scope": [
+      "Introduction",
+      "All direction/context/hierarchy Results",
+      "Discussion",
+      "Stimuli and sequence structure",
+      "Task procedures",
+      "Localizer and anticipation analyses",
+      "Asymmetrical gaussian analysis",
+      "Figures 1–8 captions"
+    ],
+    "locators": [
+      "Figures 1–2: two maps with two circular sequences each",
+      "Figures 3–4 and Results: leave-one-participant-out environment templates",
+      "Methods Asymmetrical gaussian analysis: subject-randomized orders prevent reliable subject-specific sequence content in averaged templates",
+      "Figures 5–6: bidirectional and context-specific pattern",
+      "Discussion: circular versus linear sequences as a possible explanatory difference"
+    ],
+    "safe_claims_zh": [
+      "海马与高级视觉区显示双向、多尺度时间结构",
+      "跨被试模板结合个体随机序列是原研究实做的降低参考序列携带的方法",
+      "非对称 Gaussian 允许前后宽度不同，原文未发现前向宽度优势"
+    ],
+    "our_extension_zh": "研究共同子空间和完整连续机制族的分离，以及模板残差和联合误差的有限样本边界",
+    "do_not_claim": [
+      "The original analysis assumed forward-only representations",
+      "The localizer strategy ignored learning-related sequence information",
+      "Our P/P^3 task algebra is already an original-paper neural mechanism certificate"
+    ],
+    "access_limits": "Standalone supplementary simulations and raw data not rerun",
+    "reference_number": 8
+  },
+  {
+    "id": "SharpEldar2024",
+    "authors": [
+      "Paul B. Sharp",
+      "Eran Eldar"
+    ],
+    "year": 2024,
+    "title": "Humans adaptively deploy forward and backward prediction",
+    "journal": "Nature Human Behaviour",
+    "volume": "8",
+    "issue": "9",
+    "pages_or_article": "1726–1737",
+    "published_online": "2024-07-16",
+    "doi": "10.1038/s41562-024-01930-8",
+    "primary_url": "https://www.nature.com/articles/s41562-024-01930-8",
+    "full_text_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11878374/",
+    "pmcid": "PMC11878374",
+    "web_refs": [
+      "turn907188096view0",
+      "turn863069865view0",
+      "turn863069865view1",
+      "turn863069865view2",
+      "turn731908613view0",
+      "turn731908613view1"
+    ],
+    "read_scope": [
+      "Full primary author-manuscript Introduction and Discussion",
+      "Results Studies 1–6",
+      "Methods relevant to query design, base rates, graph reversal and map changes",
+      "Model comparison",
+      "Figures 1–4 captions",
+      "Data and code statements"
+    ],
+    "locators": [
+      "Results Study 1: Bayes-rule separation of forward and backward probabilities",
+      "Figures 1–3: base-rate and divergent/convergent design",
+      "Methods Study 2: equal-and-opposite query preferences",
+      "Methods Study 3: reversing state-space order",
+      "Methods Model comparison: PR, SR, MB, base-rate/side bias and null"
+    ],
+    "safe_claims_zh": [
+      "基率、奖赏查询和任务图已用于实际 SR/PR 行为辨别",
+      "六项预注册实验显示任务结构相关的前后预测策略选择",
+      "该研究不是仅有方向辨别的讨论建议"
+    ],
+    "our_extension_zh": "未知神经参考下的机制族交叠与任务约束，以及连续族和联合读出误差下的可判别或拒判条件",
+    "do_not_claim": [
+      "Our work is the first SR/PR discriminating experimental design",
+      "Behavioral PR is mathematically identical to our stationary time-reversal family without checking its exact formalism",
+      "The study already handles unknown neural readout matrices and joint neural measurement error"
+    ],
+    "dataset_url": "https://zenodo.org/records/12656251",
+    "code_url": "https://github.com/psharp1289/Humans-Adaptively-Deploy-Forward-and-Backward-Prediction",
+    "access_limits": "Supplementary PDF access failed in PMC and publisher CDN attempts; exact PR learning recurrence and full query tables not verified",
+    "reference_number": 9,
+    "data_archive": "https://zenodo.org/records/12656251",
+    "data_doi": "10.5281/zenodo.12656251",
+    "correction": "10.1038/s41562-024-01978-6",
+    "previous_author_manuscript_data_archive": "https://zenodo.org/records/11153348"
+  },
+  {
+    "id": "Keck2025",
+    "title": "Impact of symmetry in local learning rules on predictive neural representations and generalization in spatial navigation",
+    "authors": [
+      "Janis Keck",
+      "Caswell Barry",
+      "Christian F. Doeller",
+      "Jürgen Jost"
+    ],
+    "year": 2025,
+    "journal": "PLOS Computational Biology",
+    "volume": "21",
+    "issue": "6",
+    "article": "e1013056",
+    "doi": "10.1371/journal.pcbi.1013056",
+    "primary_url": "https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1013056",
+    "code_url": "https://github.com/jakeck1/sympredlearning",
+    "web_refs": [
+      "turn990209473view0",
+      "turn275270768view0"
+    ],
+    "local_source": "../sr_story_20261125/sources/Keck25.xml",
+    "read_scope": [
+      "Sections 1–4",
+      "Results 2.2–2.8 and Discussion",
+      "Methods 4.1–4.9",
+      "Equations 6–24 and 37–48; center-of-mass derivation",
+      "Figure captions 1–9"
+    ],
+    "visual_check": "HTML/XML equations and complete figure captions; no separate pixel-level image audit",
+    "unread_or_unverified": [
+      "S1 Appendices not independently read",
+      "No independent rerun of network or RL experiments"
+    ],
+    "status": "Published analytic and computational work; no newly acquired neural dataset",
+    "reference_number": 10
+  },
+  {
+    "id": "MomennejadHoward2018",
+    "title": "Predicting the Future with Multi-scale Successor Representations",
+    "authors": [
+      "Ida Momennejad",
+      "Marc W. Howard"
+    ],
+    "year": 2018,
+    "journal": "bioRxiv",
+    "version": "v1; posted 2018-10-22",
+    "doi": "10.1101/449470",
+    "primary_url": "https://www.biorxiv.org/content/10.1101/449470v1",
+    "read_fulltext_url": "https://storage.prod.researchhub.com/uploads/papers/2025/11/22/449470v1.full.pdf",
+    "web_refs": [
+      "turn990209473view1"
+    ],
+    "local_source": "../sr_story_20261125/sources/MomennejadHoward18.pdf",
+    "read_scope": [
+      "Scientific body pp. 1–24",
+      "Equations 1–12",
+      "Figures 1–6, Discussion and Future directions"
+    ],
+    "visual_check": "Independently rendered and inspected PDF p. 15, Figure 5",
+    "unread_or_unverified": [
+      "Official bioRxiv page returned HTTP 403 during this turn",
+      "No peer-reviewed journal version confirmed",
+      "No quantitative neural-data fit or reanalysis performed in source or this reading task"
+    ],
+    "status": "Original preprint manuscript read via complete mirror; DOI and date present in PDF footer",
+    "reference_number": 11
+  },
+  {
+    "id": "Diedrichsen2017",
+    "authors": [
+      "Jörn Diedrichsen",
+      "Nikolaus Kriegeskorte"
+    ],
+    "title": "Representational models: A common framework for understanding encoding, pattern-component, and representational-similarity analysis",
+    "journal": "PLOS Computational Biology",
+    "year": 2017,
+    "volume": "13",
+    "pages_or_article": "e1005508",
+    "doi": "10.1371/journal.pcbi.1005508",
+    "reference_number": 12
+  },
+  {
+    "id": "GardnerLiu2019",
+    "authors": [
+      "Justin L. Gardner",
+      "Taosheng Liu"
+    ],
+    "title": "Inverted Encoding Models Reconstruct an Arbitrary Model Response, Not the Stimulus",
+    "journal": "eNeuro",
+    "year": 2019,
+    "volume": "6",
+    "pages_or_article": "ENEURO.0363-18.2019",
+    "doi": "10.1523/ENEURO.0363-18.2019",
+    "reference_number": 13
+  },
+  {
+    "id": "Sprague2019",
+    "authors": [
+      "Thomas C. Sprague",
+      "Geoffrey M. Boynton",
+      "John T. Serences"
+    ],
+    "title": "The Importance of Considering Model Choices When Interpreting Results in Computational Neuroimaging",
+    "journal": "eNeuro",
+    "year": 2019,
+    "volume": "6",
+    "pages_or_article": "ENEURO.0196-19.2019",
+    "doi": "10.1523/ENEURO.0196-19.2019",
+    "reference_number": 14
+  },
+  {
+    "id": "Kriegeskorte2009",
+    "authors": [
+      "Nikolaus Kriegeskorte",
+      "W. Kyle Simmons",
+      "Patrick S. F. Bellgowan",
+      "Chris I. Baker"
+    ],
+    "title": "Circular analysis in systems neuroscience—the dangers of double dipping",
+    "journal": "Nature Neuroscience",
+    "year": 2009,
+    "volume": "12",
+    "pages_or_article": "535–540",
+    "doi": "10.1038/nn.2303",
+    "reference_number": 15
+  },
+  {
+    "id": "Cai2019",
+    "authors": [
+      "Ming Bo Cai",
+      "Nicolas W. Schuck",
+      "Jonathan W. Pillow",
+      "Yael Niv"
+    ],
+    "title": "Representational structure or task structure? Bias in neural representational similarity analysis and a Bayesian method for reducing bias",
+    "journal": "PLOS Computational Biology",
+    "year": 2019,
+    "volume": "15",
+    "pages_or_article": "e1006299",
+    "doi": "10.1371/journal.pcbi.1006299",
+    "reference_number": 16
+  },
+  {
+    "id": "WilsonCollins2019",
+    "authors": [
+      "Robert C. Wilson",
+      "Anne G. E. Collins"
+    ],
+    "title": "Ten simple rules for the computational modeling of behavioral data",
+    "journal": "eLife",
+    "year": 2019,
+    "volume": "8",
+    "pages_or_article": "e49547",
+    "doi": "10.7554/eLife.49547",
+    "reference_number": 17
+  },
+  {
+    "authors": [
+      "Turner W",
+      "Sexton C",
+      "Johnson PA",
+      "Wilson EM",
+      "Hogendoorn H"
+    ],
+    "year": 2025,
+    "title": "Predictable motion is progressively extrapolated across temporally distinct processing stages in the human visual cortex",
+    "journal": "PLOS Biology",
+    "volume": 23,
+    "issue": 5,
+    "article": "e3003189",
+    "doi": "10.1371/journal.pbio.3003189",
+    "primary_url": "https://journals.plos.org/plosbiology/article?id=10.1371/journal.pbio.3003189",
+    "public_data": "https://osf.io/sn4a7/",
+    "public_code": "https://github.com/bootstrapbill/neural-location-decoding",
+    "code_version_archive": "https://zenodo.org/records/15283636",
+    "code_concept_doi": "10.5281/zenodo.15283635",
+    "read_scope": [
+      "Data Availability",
+      "Results: Characterizing location-specific neural activity, Figure 1",
+      "Methods: Participants, Stimuli, Task, EEG acquisition and pre-processing, LDA-based mapping"
+    ],
+    "web_refs": [
+      "turn372161743view0",
+      "turn846292123view1"
+    ],
+    "locators": [
+      "Data Availability, source lines 150",
+      "Results and Figure 1, source lines 170-182",
+      "Methods: Stimuli/Task, source lines 352-361",
+      "Methods: LDA mapping, source line 382"
+    ],
+    "distinction": "Original N=18; current selected calibration subset is one participant and two recordings.",
+    "id": "Turner2025",
+    "reference_number": 18
+  },
+  {
+    "id": "He2026",
+    "authors": [
+      "Xianhui He",
+      "Philipp K. Büchel",
+      "Simon Faghel-Soubeyrand",
+      "Janina Klingspohr",
+      "Marcel S. Kehl",
+      "Bernhard P. Staresina"
+    ],
+    "year": 2026,
+    "title": "Sleep strengthens successor representations of learned sequences in humans",
+    "journal": "PLOS Biology",
+    "volume": "24",
+    "issue": "4",
+    "pages_or_article": "e3003740",
+    "published": "2026-04-07",
+    "doi": "10.1371/journal.pbio.3003740",
+    "primary_url": "https://journals.plos.org/plosbiology/article?id=10.1371/journal.pbio.3003740",
+    "full_text_url": "https://journals.plos.org/plosbiology/article/file?id=10.1371/journal.pbio.3003740&type=manuscript",
+    "local_private_file": "private_sources/He2026.xml",
+    "web_refs": [
+      "turn760191909view2",
+      "turn703916656view0"
+    ],
+    "read_scope": [
+      "Introduction",
+      "Results",
+      "Discussion",
+      "Learning and perceptual tasks",
+      "Decoding",
+      "RSA",
+      "Sleep and coupling Methods",
+      "Statistical analysis",
+      "Main and supplementary figure captions"
+    ],
+    "locators": [
+      "Figure 1 and Methods Experimental design",
+      "Figure 2 and Methods Successor representation decoding: pre-learning classifier, post-learning target category",
+      "Figure 3 and RSA Methods",
+      "Figure 4 sleep physiology correlations",
+      "Discussion: no wake control; category resolution; one-step range"
+    ],
+    "safe_claims_zh": [
+      "学习前参考可用于检测学习后的后继类别信息",
+      "后继解码和表征变化与睡眠生理相关",
+      "原文承认无清醒对照及类别分辨率限制"
+    ],
+    "our_extension_zh": "区分信息存在、直接方向差异和完整多步算子识别三个层级",
+    "do_not_claim": [
+      "Above-chance successor decoding and non-significant predecessor decoding establish a direct F–B difference",
+      "The design causally isolates sleep from wakeful consolidation",
+      "Category decoding identifies a precise SR discount parameter"
+    ],
+    "editorial_notes": "Main text reports p_cluster=0.016 and Figure 2 caption p_cluster=0.028 for a successor effect; avoid using that precise value without author/code reconciliation",
+    "dataset_doi": "10.17605/OSF.IO/SN9KV",
+    "access_limits": "No direct F–B statistical contrast located in the read Methods/Results; no new raw EEG analysis",
+    "reference_number": 19
+  },
+  {
+    "id": "RobertsPashler2000",
+    "title": "How persuasive is a good fit? A comment on theory testing",
+    "authors": [
+      "Seth Roberts",
+      "Harold Pashler"
+    ],
+    "year": 2000,
+    "journal": "Psychological Review",
+    "volume": "107",
+    "pages": "358–367",
+    "doi": "10.1037/0033-295X.107.2.358",
+    "primary_url": "https://escholarship.org/content/qt5vt0z72k/qt5vt0z72k.pdf",
+    "read_scope": [
+      "Original author full text; alternative outcomes and theory tests across parameter domains"
+    ],
+    "reference_number": 20
+  },
+  {
+    "id": "Chen2021",
+    "title": "A unifying Bayesian framework accounting for spatiotemporal interferences with a deceleration tendency",
+    "authors": [
+      "Youguo Chen",
+      "Chunhua Peng",
+      "Andrew Avitt"
+    ],
+    "year": 2021,
+    "journal": "Vision Research",
+    "volume": "187",
+    "pages": "66–74",
+    "doi": "10.1016/j.visres.2021.06.005",
+    "primary_url": "https://doi.org/10.1016/j.visres.2021.06.005",
+    "read_scope": [
+      "Main text pp.69–72; model fits and reported speed parameters"
+    ],
+    "unread_or_unverified": [
+      "Original supplementary formulas S3–S6 not independently retrieved for this revision"
+    ],
+    "reference_number": 21
+  },
+  {
+    "id": "Chen2024",
+    "title": "Direct evidence for logarithmic magnitude representation in the central nervous system",
+    "authors": [
+      "Youguo Chen",
+      "Jie Yu",
+      "Chunna Hou",
+      "Chunhua Peng"
+    ],
+    "year": 2024,
+    "journal": "Neuroscience",
+    "volume": "561",
+    "pages": "127–138",
+    "doi": "10.1016/j.neuroscience.2024.10.025",
+    "primary_url": "https://doi.org/10.1016/j.neuroscience.2024.10.025",
+    "read_scope": [
+      "User-supplied original PDF pp.129–132; equations 1–5, fixed parameters, production-noise definition"
+    ],
+    "reference_number": 22
+  },
+  {
+    "id": "Merkt2015",
+    "title": "Higher-order Lie symmetries in identifiability and predictability analysis of dynamic models",
+    "authors": [
+      "Benjamin Merkt",
+      "Jens Timmer",
+      "Daniel Kaschek"
+    ],
+    "year": 2015,
+    "journal": "Physical Review E",
+    "volume": "92",
+    "pages": "012920",
+    "doi": "10.1103/PhysRevE.92.012920",
+    "primary_url": "https://journals.aps.org/pre/pdf/10.1103/PhysRevE.92.012920",
+    "read_scope": [
+      "Original full text; equations 1–2, sections III.C and IV"
+    ],
+    "reference_number": 23
+  },
+  {
+    "id": "PopovychBihlo2012",
+    "title": "Symmetry preserving parameterization schemes",
+    "authors": [
+      "Roman O. Popovych",
+      "Alexander Bihlo"
+    ],
+    "year": 2012,
+    "journal": "Journal of Mathematical Physics",
+    "volume": "53",
+    "pages": "073102",
+    "doi": "10.1063/1.4734344",
+    "primary_url": "https://arxiv.org/abs/1010.3010",
+    "read_scope": [
+      "Author full text arXiv v3; sections 2.1–2.2, concluding discussion and Figure 1"
+    ],
+    "reference_number": 24
+  }
+]

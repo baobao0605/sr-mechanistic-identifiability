@@ -1,0 +1,178 @@
+[
+  {
+    "number": 1,
+    "language": "en",
+    "stem": "fig01_foundations_en",
+    "width_mm": 170,
+    "height_mm": 146.25,
+    "min_font_pt": 8.149606299212598,
+    "svg": "figures/svg/fig01_foundations_en.svg",
+    "pdf": "figures/pdf/fig01_foundations_en.pdf",
+    "png": "figures/png/fig01_foundations_en.png"
+  },
+  {
+    "number": 1,
+    "language": "zh",
+    "stem": "fig01_foundations_zh",
+    "width_mm": 170,
+    "height_mm": 146.25,
+    "min_font_pt": 8.149606299212598,
+    "svg": "figures/svg/fig01_foundations_zh.svg",
+    "pdf": "figures/pdf/fig01_foundations_zh.pdf",
+    "png": "figures/png/fig01_foundations_zh.png"
+  },
+  {
+    "number": 2,
+    "language": "en",
+    "stem": "fig02_families_en",
+    "width_mm": 170,
+    "height_mm": 110.0,
+    "min_font_pt": 8.149606299212598,
+    "svg": "figures/svg/fig02_families_en.svg",
+    "pdf": "figures/pdf/fig02_families_en.pdf",
+    "png": "figures/png/fig02_families_en.png"
+  },
+  {
+    "number": 2,
+    "language": "zh",
+    "stem": "fig02_families_zh",
+    "width_mm": 170,
+    "height_mm": 110.0,
+    "min_font_pt": 8.149606299212598,
+    "svg": "figures/svg/fig02_families_zh.svg",
+    "pdf": "figures/pdf/fig02_families_zh.pdf",
+    "png": "figures/png/fig02_families_zh.png"
+  },
+  {
+    "number": 3,
+    "language": "en",
+    "stem": "fig03_reciprocity_en",
+    "width_mm": 170,
+    "height_mm": 112.5,
+    "min_font_pt": 8.149606299212598,
+    "svg": "figures/svg/fig03_reciprocity_en.svg",
+    "pdf": "figures/pdf/fig03_reciprocity_en.pdf",
+    "png": "figures/png/fig03_reciprocity_en.png"
+  },
+  {
+    "number": 3,
+    "language": "zh",
+    "stem": "fig03_reciprocity_zh",
+    "width_mm": 170,
+    "height_mm": 112.5,
+    "min_font_pt": 8.149606299212598,
+    "svg": "figures/svg/fig03_reciprocity_zh.svg",
+    "pdf": "figures/pdf/fig03_reciprocity_zh.pdf",
+    "png": "figures/png/fig03_reciprocity_zh.png"
+  },
+  {
+    "number": 4,
+    "language": "en",
+    "stem": "fig04_measurement_en",
+    "width_mm": 170,
+    "height_mm": 126.25,
+    "min_font_pt": 8.149606299212598,
+    "svg": "figures/svg/fig04_measurement_en.svg",
+    "pdf": "figures/pdf/fig04_measurement_en.pdf",
+    "png": "figures/png/fig04_measurement_en.png"
+  },
+  {
+    "number": 4,
+    "language": "zh",
+    "stem": "fig04_measurement_zh",
+    "width_mm": 170,
+    "height_mm": 126.25,
+    "min_font_pt": 8.149606299212598,
+    "svg": "figures/svg/fig04_measurement_zh.svg",
+    "pdf": "figures/pdf/fig04_measurement_zh.pdf",
+    "png": "figures/png/fig04_measurement_zh.png"
+  },
+  {
+    "number": 5,
+    "language": "en",
+    "stem": "fig05_quantitative_en",
+    "width_mm": 170,
+    "height_mm": 125.0,
+    "min_font_pt": 8.149606299212598,
+    "svg": "figures/svg/fig05_quantitative_en.svg",
+    "pdf": "figures/pdf/fig05_quantitative_en.pdf",
+    "png": "figures/png/fig05_quantitative_en.png"
+  },
+  {
+    "number": 5,
+    "language": "zh",
+    "stem": "fig05_quantitative_zh",
+    "width_mm": 170,
+    "height_mm": 125.0,
+    "min_font_pt": 8.149606299212598,
+    "svg": "figures/svg/fig05_quantitative_zh.svg",
+    "pdf": "figures/pdf/fig05_quantitative_zh.pdf",
+    "png": "figures/png/fig05_quantitative_zh.png"
+  },
+  {
+    "number": 6,
+    "language": "en",
+    "stem": "fig06_kernels_en",
+    "width_mm": 170,
+    "height_mm": 133.75,
+    "min_font_pt": 8.149606299212598,
+    "svg": "figures/svg/fig06_kernels_en.svg",
+    "pdf": "figures/pdf/fig06_kernels_en.pdf",
+    "png": "figures/png/fig06_kernels_en.png"
+  },
+  {
+    "number": 6,
+    "language": "zh",
+    "stem": "fig06_kernels_zh",
+    "width_mm": 170,
+    "height_mm": 133.75,
+    "min_font_pt": 8.149606299212598,
+    "svg": "figures/svg/fig06_kernels_zh.svg",
+    "pdf": "figures/pdf/fig06_kernels_zh.pdf",
+    "png": "figures/png/fig06_kernels_zh.png"
+  },
+  {
+    "number": 7,
+    "language": "en",
+    "stem": "fig07_calibration_en",
+    "width_mm": 170,
+    "height_mm": 133.75,
+    "min_font_pt": 8.149606299212598,
+    "svg": "figures/svg/fig07_calibration_en.svg",
+    "pdf": "figures/pdf/fig07_calibration_en.pdf",
+    "png": "figures/png/fig07_calibration_en.png"
+  },
+  {
+    "number": 7,
+    "language": "zh",
+    "stem": "fig07_calibration_zh",
+    "width_mm": 170,
+    "height_mm": 133.75,
+    "min_font_pt": 8.149606299212598,
+    "svg": "figures/svg/fig07_calibration_zh.svg",
+    "pdf": "figures/pdf/fig07_calibration_zh.pdf",
+    "png": "figures/png/fig07_calibration_zh.png"
+  },
+  {
+    "number": 8,
+    "language": "en",
+    "stem": "fig08_programme_en",
+    "width_mm": 170,
+    "height_mm": 132.5,
+    "min_font_pt": 8.149606299212598,
+    "svg": "figures/svg/fig08_programme_en.svg",
+    "pdf": "figures/pdf/fig08_programme_en.pdf",
+    "png": "figures/png/fig08_programme_en.png"
+  },
+  {
+    "number": 8,
+    "language": "zh",
+    "stem": "fig08_programme_zh",
+    "width_mm": 170,
+    "height_mm": 132.5,
+    "min_font_pt": 8.149606299212598,
+    "svg": "figures/svg/fig08_programme_zh.svg",
+    "pdf": "figures/pdf/fig08_programme_zh.pdf",
+    "png": "figures/png/fig08_programme_zh.png"
+  }
+]

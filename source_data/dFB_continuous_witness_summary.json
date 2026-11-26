@@ -1,0 +1,6 @@
+{
+  "checks": 2304,
+  "upper_witness_max_abs_error": 2.107342404844958e-08,
+  "lower_below_witness_all": true,
+  "status": "PASS"
+}

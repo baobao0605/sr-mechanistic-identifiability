@@ -1,0 +1,3 @@
+# English supplementary information: visual verification
+
+All pages of the first complete English supplementary layout were rendered and inspected. Final changes were checked at the contents, A11/Part B boundary, related-work pages and references. The final document has 43 pages. The contents fits one page; the A/B/C/D entries are 2/24/40/42 and agree with the document. Table link labels wrap within their columns. Equation introductions and displays are held together, and negative numbers render with ordinary mathematical minus signs. No missing glyphs or overfull boxes were reported by the final build. Source and theorem counts are recorded in submission_integrity.json.

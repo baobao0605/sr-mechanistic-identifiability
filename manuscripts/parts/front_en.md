@@ -1,0 +1,28 @@
+---
+title: "Identifying direction and temporal weighting in predictive cognitive maps"
+author: "Yongzhang Ji"
+affiliation: "Faculty of Psychology, Southwest University, Chongqing, China"
+orcid: "0009-0006-4111-2000"
+date: "2026-11-26"
+lang: en
+---
+
+## Abstract
+
+The successor representation (SR) describes a current state through discounted occupancy of future states. Interpreting neural data in these terms requires identifying both temporal direction and temporal weighting. We examine which properties are identifiable across continuous SR families. Opposite maps can have identical canonical Euclidean geometry, and a learned reference can make the complete state-contrast action between two forward representations equal a backward SR. Continuous-family analysis unifies these equivalences through the set of compatible explanations and reveals different information requirements for direction and parameters. On a directly referenced rotation plane, direction can be identified while any discount is compensated by current and predictive weights. Reciprocal tasks create direction-exclusive regions for complete SR and specified extensions; task-compatible readout preserves these relations; joint-error inversion supports finite-sample property declarations. Relative angles already give sharp discount ranges; additional independent propagation shapes identify unique parameter values or finite temporal kernels. A finite-memory design also supports tests of multiscale mixtures and recovery of a target kernel’s relative shape despite a learned reference. Calibration with public repeated neural measurements shows predictive gains for task-relevant references and more decidable known-transformation conditions with appropriate error spaces and readouts. Actual acquisition units determine how these decisions transfer. Together, the results provide a route from observational compatibility to mechanistic properties and quantitative constraints.
+
+**Keywords:** successor representation; cognitive maps; identifiability; predictive direction; temporal weighting; continuous model families
+
+## Introduction
+
+At a familiar junction, the scene in front of us is only part of what we know. We know where we have just come from and what we might encounter along each route ahead. A cognitive map brings these relations into present behaviour: remembering the past helps identify a context, and anticipating the future helps plan an action. The two computations may use the same places or events. Their difference lies in how those states are organized around the present.
+
+The successor representation provides a concrete model of the prospective relation [1]. It represents a current state as a weighted sum of the states that may be occupied after departing from it. Predictive-map theory connects this idea to hippocampal population activity and relates state transitions to representational similarity [2]. The programme has extended to abstract relations, predictive horizons across brain regions, sequence anticipation and changes in representation after learning [5–8,19]. These findings make a mechanistic question important: when neural activity contains future-related structure, what can we infer about how the system organizes time?
+
+The question has two related parts. The first concerns direction: does the present representation contain states about to be encountered, states encountered recently, or a mixture? The second concerns weighting: how do different temporal distances contribute, and do they follow one geometric discount? Existing work offers several ways to distinguish these possibilities. The relation between temporal-context models and SR reveals equivalence under particular learning conditions [3]. Revaluation experiments use restrictions on newly available information to distinguish planning processes [4]. Base rates, graph structure and query demands can make forward and backward prediction produce different behavioural choices [9]. Multiscale representations and symmetric learning rules further expand the mechanisms available for investigation [10,11].
+
+Neural measurement adds another relation to this problem. We usually record patterns that mix several sources, then compare distances between patterns or use reference measurements to read out their content. Work on representational models shows how feature bases, priors and measurement choices jointly specify empirical predictions [12–14]. Whether a mechanism can be identified therefore depends both on how it generates an internal representation and on which differences survive into the observation used by the researcher. For SR, the transition structure, temporal weights and learning history of the reference all contribute to that relation.
+
+We follow this chain from model to observation. Two exact examples first show how opposite directions can coincide in distance geometry or in the relative action measured against a learned reference. We then examine the continuous predictions generated by all allowed parameters and ask whether every explanation compatible with an observation shares a property. This separates directional inference from parameter recovery: parameters may vary along a continuous curve while direction is already determined. Reciprocal tasks, task-compatible readout and joint uncertainty turn the principle into an operational inference. Further independent propagation information supports quantitative recovery of discounts and temporal kernels. Repeated neural measurements finally examine the reference, readout and acquisition requirements along this route.
+
+## Results

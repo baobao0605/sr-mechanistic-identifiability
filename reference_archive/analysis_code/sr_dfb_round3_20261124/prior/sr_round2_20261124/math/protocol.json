@@ -1,0 +1,66 @@
+{
+  "status": "retrospective_protocol_fixed_before_new_geometry_results",
+  "scope": [
+    "mechanism_specific_observability",
+    "discount_identifiability",
+    "reference_uncertainty_compatibility",
+    "Kern_Turner_real_reference_calibration"
+  ],
+  "model": "Y=c B+alpha P(I-gamma P)^-1 B; c unrestricted; alpha>=0",
+  "pure_SR_relation": "c=a, alpha=a*gamma; augmented family is deliberately broader",
+  "gamma_grid": [
+    0,
+    0.95,
+    0.01
+  ],
+  "sources": [
+    "Kern DSMR101 two prelearning localizers",
+    "Turner ID13 two stationary localizers"
+  ],
+  "split": "within each source session, chronological per-label halves; reference from one session, transformed target from the other; reverse source and swap halves yields four folds; no observation reused within one train/test partition",
+  "metric": "Ledoit-Wolf covariance of within-state residuals from reference training trials only",
+  "Kern_windows": [
+    "visual_early",
+    "visual_late"
+  ],
+  "Turner_windows": [
+    "early",
+    "late"
+  ],
+  "spaces": {
+    "Kern": [
+      "full_Helmert11_context_states",
+      "design_predefined_k4_Fourier_plane",
+      "predefined_k4_k1_Fourier_planes"
+    ],
+    "Turner": [
+      "full_Helmert39",
+      "predefined_Fourier1_plane",
+      "predefined_Fourier1_2_planes"
+    ]
+  },
+  "true_gamma": [
+    0.2,
+    0.5,
+    0.8
+  ],
+  "true_direction": [
+    "forward",
+    "backward"
+  ],
+  "residual_prediction_to_current_norm": [
+    0.1,
+    0.3,
+    1.0
+  ],
+  "control": "current only alpha=0; no real cognitive direction labels are claimed",
+  "calibration_boundary": "Known linear operators are applied to actual heldout repeated condition means, transforming both measured signal and measured noise. No simulated participants. This tests conditional method transmission, not actual SR content. The four folds share one person and are not population samples.",
+  "certification_boundary": "Grid searches and empirical split disagreements are not continuous-parameter or statistical coverage certificates.",
+  "post_analysis_amendment_v2": {
+    "record": "amendment_reference_ball_v2.md",
+    "Kern_prior_processing": "Shared SSP was fitted to the complete unlabelled localizer1 continuous data in the prior round, before the present split. Only newly fitted whitening is training-only.",
+    "cross_repeat_scope": "Non-reused target halves do not guarantee independent errors after shared SSP estimation; cross energy is a conditional stability diagnostic.",
+    "finite_moment_scope": "Unique finite-basis coordinates are not necessarily early lag moments; actual lag isolation or explicit tail control is required.",
+    "calibration_unchanged": true
+  }
+}

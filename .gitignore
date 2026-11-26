@@ -1,0 +1,14 @@
+source_data/fig07_empirical_arrays.npz
+LOCAL_INPUTS_DO_NOT_UPLOAD/
+raw_data/
+data_local/
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.DS_Store
+.ipynb_checkpoints/
+build/
+reviews/
+reproduction_runs/
+.env

@@ -1,0 +1,79 @@
+{
+  "archive_name": "SR_dFB_complete_20261124.zip",
+  "archive_sha256": "8e925706bb2935709b08540e6314771ff4247b4b9cca358937e3d21471d882b8",
+  "archive_bytes": 155150177,
+  "files": [
+    {
+      "file": "source_data/dFB_observed_class_audit.csv",
+      "original_archive_path": "sr_dfb_round3_20261124/independent/observed_class_audit.csv",
+      "sha256": "df09d04c05530417965721fe63967a345e5ced1cb8588d11e6f15119a6021a83"
+    },
+    {
+      "file": "source_data/dFB_observed_class_summary.json",
+      "original_archive_path": "sr_dfb_round3_20261124/independent/observed_class_summary.json",
+      "sha256": "edfa85dd4e33d6d2bcd32b5f11ba0321f3ad033115e68fa2480f19c117df2737"
+    },
+    {
+      "file": "source_data/dFB_profiled_decision_folds.csv",
+      "original_archive_path": "sr_dfb_round3_20261124/independent/profiled_decision_folds.csv",
+      "sha256": "837a42c6b68faf49ec9be33db2bb6b92b6886a5390fa9b3af9dc909dbf2276aa"
+    },
+    {
+      "file": "source_data/dFB_profiled_decision_summary.json",
+      "original_archive_path": "sr_dfb_round3_20261124/independent/profiled_decision_summary.json",
+      "sha256": "b78d1aabec07d29f0040fcfafbf43af6cbeff8aaade67dd56e213b93457a71e6"
+    },
+    {
+      "file": "source_data/dFB_margin_folds.csv",
+      "original_archive_path": "sr_dfb_round3_20261124/independent/margin_folds.csv",
+      "sha256": "f113d54bda8458fd6a2e5b28bf98ecb0d7feb780fc45b9a5705c0d7e3f6d0398"
+    },
+    {
+      "file": "source_data/dFB_projection_ratio_summary.csv",
+      "original_archive_path": "sr_dfb_round3_20261124/independent/projection_ratio_summary.csv",
+      "sha256": "5e2bf325fd62a756ab1aa2ea095f422d9eaeeb0e84e144fa615a9a12a0dbc42f"
+    },
+    {
+      "file": "source_data/dFB_discount_resolution_summary.csv",
+      "original_archive_path": "sr_dfb_round3_20261124/independent/discount_resolution_summary.csv",
+      "sha256": "91a1618009ea255e2c17e47e61b7502784a9b367374992bca24087c477cad304"
+    },
+    {
+      "file": "source_data/dFB_paired_gate_summary.csv",
+      "original_archive_path": "sr_dfb_round3_20261124/independent/paired_gate_summary.csv",
+      "sha256": "0016af8c3abaebd30d684964ba1236e59eec6278e67ea1911469c496f9880953"
+    },
+    {
+      "file": "source_data/dFB_continuous_geometry.csv",
+      "original_archive_path": "sr_dfb_round3_20261124/independent/continuous_geometry.csv",
+      "sha256": "42862d89f54a2261e998fb34dd3d21f513e461f705d79d85f8b2c33f8aa59c59"
+    },
+    {
+      "file": "source_data/dFB_continuous_witness_summary.json",
+      "original_archive_path": "sr_dfb_round3_20261124/independent/continuous_witness_summary.json",
+      "sha256": "f772cdc9261c32b955c25bfd9f60ec0f12dd6cbdbfa7e434715faaf1fc3a8f05"
+    },
+    {
+      "file": "source_data/dFB_input_reconstruction_summary.json",
+      "original_archive_path": "sr_dfb_round3_20261124/independent/input_reconstruction_summary.json",
+      "sha256": "bf6c0244ca17d1687769bdb9db0cbd55d79c922ed6c80c1e0a38a98f3c10fef6"
+    },
+    {
+      "file": "source_data/dFB_predictive_auroc.csv",
+      "original_archive_path": "sr_dfb_round3_20261124/independent/predictive_auroc.csv",
+      "sha256": "abc88598bed828f1dd9367c5c992507513e964b78cc0814e0c3d017e4cd65b28"
+    },
+    {
+      "file": "source_data/dFB_auc_precision_bounds.csv",
+      "original_archive_path": "sr_dfb_round3_20261124/independent/auc_precision_bounds.csv",
+      "sha256": "892b4799c99225e63921319b43d0de24e443b59ddaa9639a8085548f46d8dcea"
+    },
+    {
+      "file": "source_data/dFB_cross_dataset_thresholds.csv",
+      "original_archive_path": "sr_dfb_round3_20261124/independent/cross_dataset_thresholds.csv",
+      "sha256": "dea670cf0b8753ccf35036bb20cb536eba46c650d86cde0b56027a28f035603b"
+    }
+  ],
+  "derived_count_table": "source_data/dFB_error_space_counts.csv",
+  "derivation": "Counts of true booleans in *_oracle_{full,U,Q_U}_bound_pass for forward/backward rows of profiled_decision_folds.csv, independently checked against profiled_decision_summary.json."
+}

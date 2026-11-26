@@ -1,0 +1,281 @@
+{
+  "fig01": {
+    "gamma_basics": 0.7,
+    "weighted_first_four_rows": [
+      [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.7,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        0.48999999999999994,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        0.3429999999999999,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    ],
+    "complete_state_zero_row": [
+      1.0611746041943415,
+      0.7428222229360391,
+      0.5199755560552273,
+      0.36398288923865907,
+      0.25478802246706134,
+      0.1783516157269429,
+      0.12484613100886004,
+      0.08739229170620202
+    ],
+    "gamma_geometry": 0.8,
+    "max_distance_difference": 2.220446049250313e-16,
+    "paley_gain": 1.2215799614643545,
+    "paley_backward_discount": 0.43352601156069365,
+    "paley_error": 2.220446049250313e-16
+  },
+  "fig02": {
+    "mixture_discounts": [
+      0.2,
+      0.85
+    ],
+    "weights": [
+      0.5,
+      0.5
+    ],
+    "mixture_matrix": [
+      [
+        0.771044992743106,
+        -0.34288824383164007
+      ],
+      [
+        0.34288824383164007,
+        0.7710449927431059
+      ]
+    ],
+    "effective_matrix": [
+      [
+        0.771044992743106,
+        -0.34288824383164007
+      ],
+      [
+        0.34288824383164007,
+        0.771044992743106
+      ]
+    ],
+    "effective_discount": 0.4447058823529412,
+    "effective_gain": 0.9235294117647059,
+    "max_effective_error": 1.1102230246251565e-16
+  },
+  "fig03": {
+    "discount_domain": "0 <= gamma, eta < 1",
+    "closures": {
+      "FF": [
+        0,
+        90
+      ],
+      "BB": [
+        -90,
+        0
+      ],
+      "FB": [
+        -45,
+        45
+      ],
+      "BF": [
+        -45,
+        45
+      ]
+    },
+    "open_endpoints_deg": [
+      -90,
+      -45,
+      45,
+      90
+    ],
+    "state_task": "eight-cycle steps 1 and 3; common k=2 plane"
+  },
+  "fig04": {
+    "R": [
+      [
+        0.8,
+        0.2,
+        -0.4,
+        0.1
+      ],
+      [
+        -0.1,
+        0.5,
+        0.3,
+        -0.6
+      ]
+    ],
+    "X": [
+      [
+        0.1,
+        0.7,
+        -0.2,
+        0.4
+      ],
+      [
+        0.4,
+        -0.2,
+        0.6,
+        0.8
+      ]
+    ],
+    "G": [
+      [
+        0.5,
+        -0.8
+      ],
+      [
+        0.8,
+        0.5
+      ]
+    ],
+    "z_X": [
+      -0.08006407690254355,
+      0.06405126152203491
+    ],
+    "z_GX": [
+      -0.09127304766889976,
+      -0.03202563076101741
+    ],
+    "readout_equivariance_error": 5.551115123125783e-17,
+    "acceptance_set_source": "source_data/fig06_metadata.json",
+    "statistical_scope": "candidate-specific two-dimensional residual inversion; not four-dimensional mean confidence region",
+    "n": 24,
+    "alpha": 0.05
+  },
+  "fig05": {
+    "partial_phi_deg": 70,
+    "discount_lower_infimum": 0.4663076581549986,
+    "ratio_gamma": 0.5,
+    "ratio_q": 0.434314575050762,
+    "three_shape_matrix": [
+      [
+        1.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        1.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        1.0
+      ]
+    ]
+  },
+  "fig06": {
+    "single_discount": 0.6,
+    "mixture_discounts": [
+      0.2,
+      0.85
+    ],
+    "mixture_weights": [
+      0.5,
+      0.5
+    ],
+    "single_weights": [
+      0.6,
+      0.36,
+      0.21599999999999997
+    ],
+    "mixture_weights_lags": [
+      0.525,
+      0.38125,
+      0.31106249999999996
+    ],
+    "moment_gap_single": -2.7755575615628914e-17,
+    "moment_gap_mixture": 0.017956250000000007,
+    "reverse_reference_gamma": 0.6,
+    "reverse_reference_eta": 0.4,
+    "relative_matrix": [
+      [
+        1.0,
+        -0.4,
+        0.0,
+        0.0
+      ],
+      [
+        0.6,
+        0.76,
+        -0.4,
+        0.0
+      ],
+      [
+        0.36,
+        0.45599999999999996,
+        0.76,
+        -0.4
+      ],
+      [
+        0.216,
+        0.27359999999999995,
+        0.45599999999999996,
+        0.76
+      ]
+    ]
+  },
+  "fig07": {
+    "sources": [
+      "fig07_reference_blocks.csv",
+      "fig07_reference_aggregate.csv",
+      "fig07_conditional_sr.csv",
+      "fig07_within_physical_block.csv",
+      "fig07_transport_summary.csv"
+    ],
+    "dfb_count_source": "SR_dFB_report_zh.pdf p. 9 and SR_dFB_key_results.csv; 2026-11-24 post hoc deterministic calibration",
+    "dfb_multiclass_counts": [
+      0,
+      6,
+      77
+    ],
+    "dfb_total": 864,
+    "conditional_ratios": [
+      1.2069605097256173,
+      1.156972484568889,
+      1.3418795964180663
+    ],
+    "physical_block_counts": [
+      6,
+      7
+    ],
+    "transport_conditions": 1200
+  },
+  "fig08": {
+    "panel_a": "author original two-level model/psychological-mechanism and fitted-instance/observed-data argument preserved",
+    "panel_b": "c=1+gamma, alpha=1+gamma^2 yields I+J for 0<=gamma<1, direct-reference quarter-turn block",
+    "panel_c": "property constancy on compatible set, additional independent constraints support quantitative targets; Lie-symmetry inverse programme is future work"
+  }
+}

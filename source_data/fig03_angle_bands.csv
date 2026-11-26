@@ -1,0 +1,5 @@
+family,lower_deg,upper_deg,lower_attained,upper_attained
+FF,0,90,True,False
+BB,-90,0,False,True
+FB,-45,45,False,False
+BF,-45,45,False,False

@@ -1,0 +1,361 @@
+{
+  "source_archive": "SR_dFB_complete_20261124.zip",
+  "source_archive_sha256": "8e925706bb2935709b08540e6314771ff4247b4b9cca358937e3d21471d882b8",
+  "source_archive_bytes": 155150177,
+  "source_identity_record": "../../empirical/dFB_provenance.json",
+  "selection": "Final top-level analysis code, active small protocols and README/algorithm notes; original directory paths retained. Historical backup directories, raw data, binary caches, plotting, document-build and archive-build scripts omitted.",
+  "copied_files": 58,
+  "python_files": 36,
+  "copied_bytes": 306623,
+  "verification": "Every copied byte sequence equals the corresponding ZIP member; all Python sources parse without execution. No historical analysis entry point was rerun in this assembly.",
+  "files": [
+    {
+      "original_archive_path": "sr_dfb_round3_20261124/README.md",
+      "copied_path": "sr_dfb_round3_20261124/README.md",
+      "bytes": 4605,
+      "sha256": "9e1664323a76c2368cf0d69ded925b1d876e362f9e74a44dff18626a3f676e4b"
+    },
+    {
+      "original_archive_path": "sr_dfb_round3_20261124/empirical/README.md",
+      "copied_path": "sr_dfb_round3_20261124/empirical/README.md",
+      "bytes": 2952,
+      "sha256": "ecf5ac0540594232623e1fb49b3c42a0a42385bf51a210ebe4bc7e82c12da068"
+    },
+    {
+      "original_archive_path": "sr_dfb_round3_20261124/empirical/amendment_A01_error_budget.md",
+      "copied_path": "sr_dfb_round3_20261124/empirical/amendment_A01_error_budget.md",
+      "bytes": 1474,
+      "sha256": "6c2e98d2af6da518dafd6d9e2299d4906cb8c7b8528eeff6988b461d14a03a3b"
+    },
+    {
+      "original_archive_path": "sr_dfb_round3_20261124/empirical/amendment_A02_gamma_endpoint.md",
+      "copied_path": "sr_dfb_round3_20261124/empirical/amendment_A02_gamma_endpoint.md",
+      "bytes": 1278,
+      "sha256": "0450b9ee9ae3822bf556f7e13fc2093c7f3967b0a93b62b6616d6e1a0d6b2fde"
+    },
+    {
+      "original_archive_path": "sr_dfb_round3_20261124/empirical/analyze_margin_inputs.py",
+      "copied_path": "sr_dfb_round3_20261124/empirical/analyze_margin_inputs.py",
+      "bytes": 15002,
+      "sha256": "538e2c8cd71a40f96c68ce3f2907ae7be744bedf78599e62608494e6f20448e6"
+    },
+    {
+      "original_archive_path": "sr_dfb_round3_20261124/empirical/audit_auc_precision.py",
+      "copied_path": "sr_dfb_round3_20261124/empirical/audit_auc_precision.py",
+      "bytes": 4587,
+      "sha256": "e92c00428ae3940f809ec724cb98b1640977e8d1840a35d7adf2c71e510221ac"
+    },
+    {
+      "original_archive_path": "sr_dfb_round3_20261124/empirical/compute_continuous_margins.py",
+      "copied_path": "sr_dfb_round3_20261124/empirical/compute_continuous_margins.py",
+      "bytes": 5208,
+      "sha256": "5c0448455338c66c970fe2cbc8cce459d0528bb9f216b40f60b2639f9af61e0c"
+    },
+    {
+      "original_archive_path": "sr_dfb_round3_20261124/empirical/session_disjoint.py",
+      "copied_path": "sr_dfb_round3_20261124/empirical/session_disjoint.py",
+      "bytes": 13263,
+      "sha256": "b52d910240398c6d33f396abc83b556d3854613853f250b8b69aa08a673d7726"
+    },
+    {
+      "original_archive_path": "sr_dfb_round3_20261124/empirical/summarize_margins.py",
+      "copied_path": "sr_dfb_round3_20261124/empirical/summarize_margins.py",
+      "bytes": 10659,
+      "sha256": "ba7fc2332570e8cbeba5bf408104c6f7414ded3a5a410d15a12d16193dc646b4"
+    },
+    {
+      "original_archive_path": "sr_dfb_round3_20261124/independent/README.md",
+      "copied_path": "sr_dfb_round3_20261124/independent/README.md",
+      "bytes": 6205,
+      "sha256": "5667a1e5580eb4d0643de47db843cff704613758d44aff7b57a6c8f89fe3b8ee"
+    },
+    {
+      "original_archive_path": "sr_dfb_round3_20261124/independent/amendment_A01_profiled_decision.md",
+      "copied_path": "sr_dfb_round3_20261124/independent/amendment_A01_profiled_decision.md",
+      "bytes": 1601,
+      "sha256": "fcba5b6794b5bd6f19016d07dd1615f37529dbf8648f65ed47ab454e17d672a9"
+    },
+    {
+      "original_archive_path": "sr_dfb_round3_20261124/independent/amendment_A02_numerical_ties.md",
+      "copied_path": "sr_dfb_round3_20261124/independent/amendment_A02_numerical_ties.md",
+      "bytes": 1165,
+      "sha256": "f0c61c758c3ffa38ea27ec62e1fa5504efdd51c2e77fd26315830f5c99a427ed"
+    },
+    {
+      "original_archive_path": "sr_dfb_round3_20261124/independent/amendment_A03_observation_classes.md",
+      "copied_path": "sr_dfb_round3_20261124/independent/amendment_A03_observation_classes.md",
+      "bytes": 2265,
+      "sha256": "5f38e1f631ba593cad6977414175ed0290d72b824c67ee0992205a789b1a17f8"
+    },
+    {
+      "original_archive_path": "sr_dfb_round3_20261124/independent/analyze_margins.py",
+      "copied_path": "sr_dfb_round3_20261124/independent/analyze_margins.py",
+      "bytes": 9600,
+      "sha256": "2ebea8e053d6269098bec7f4fa99b336791cab69d93efe13442f077e36774175"
+    },
+    {
+      "original_archive_path": "sr_dfb_round3_20261124/independent/audit_auc_precision.py",
+      "copied_path": "sr_dfb_round3_20261124/independent/audit_auc_precision.py",
+      "bytes": 2593,
+      "sha256": "13e4d067c957224f2d3cd1193976cbde60345a69480b9559e8bb06c3bccbc799"
+    },
+    {
+      "original_archive_path": "sr_dfb_round3_20261124/independent/audit_observed_classes.py",
+      "copied_path": "sr_dfb_round3_20261124/independent/audit_observed_classes.py",
+      "bytes": 6155,
+      "sha256": "f26991225684441d62cd2113782e6f5f9d550c57952385cfbc10ad62fafdd8ce"
+    },
+    {
+      "original_archive_path": "sr_dfb_round3_20261124/independent/audit_things_transfer.py",
+      "copied_path": "sr_dfb_round3_20261124/independent/audit_things_transfer.py",
+      "bytes": 8080,
+      "sha256": "3c7d86a8089935fdba228cdd2610f0eaa4a5c6df273880292480a5c95cc5296b"
+    },
+    {
+      "original_archive_path": "sr_dfb_round3_20261124/independent/build_inputs.py",
+      "copied_path": "sr_dfb_round3_20261124/independent/build_inputs.py",
+      "bytes": 5978,
+      "sha256": "03ae5a95865f84586e3f1f262023fae58a64bd8b1673a4cd4938046ae8d314f3"
+    },
+    {
+      "original_archive_path": "sr_dfb_round3_20261124/independent/make_report_tables.py",
+      "copied_path": "sr_dfb_round3_20261124/independent/make_report_tables.py",
+      "bytes": 5101,
+      "sha256": "d796f0b85d6767ea5c8e14e12a7638df1448cad37e9b93901c9cecc8f9c212bd"
+    },
+    {
+      "original_archive_path": "sr_dfb_round3_20261124/independent/profiled_decision.py",
+      "copied_path": "sr_dfb_round3_20261124/independent/profiled_decision.py",
+      "bytes": 6319,
+      "sha256": "eb88a9e3e350d98e83a248e7f9348c2ac580d718c54fe4a5c98b1e80f1e0bc49"
+    },
+    {
+      "original_archive_path": "sr_dfb_round3_20261124/independent/summarize_margins.py",
+      "copied_path": "sr_dfb_round3_20261124/independent/summarize_margins.py",
+      "bytes": 8462,
+      "sha256": "d1a11d1977c02d86872dd72e265ce623af6673260794a444141e81914ab75167"
+    },
+    {
+      "original_archive_path": "sr_dfb_round3_20261124/independent/verify_continuous_witnesses.py",
+      "copied_path": "sr_dfb_round3_20261124/independent/verify_continuous_witnesses.py",
+      "bytes": 1921,
+      "sha256": "dbbac7d1e17764f343209d64d960f7716d8483f8fed3cb01e230f5f821c42e5d"
+    },
+    {
+      "original_archive_path": "sr_dfb_round3_20261124/prior/sr_round2_20261124/calibration/analyze_things.py",
+      "copied_path": "sr_dfb_round3_20261124/prior/sr_round2_20261124/calibration/analyze_things.py",
+      "bytes": 9129,
+      "sha256": "1f2113ac7f5e3c5c44b825598aa8df63a8069b3d5174529e370bea732a35a960"
+    },
+    {
+      "original_archive_path": "sr_dfb_round3_20261124/prior/sr_round2_20261124/calibration/cross_repeat_contrasts.py",
+      "copied_path": "sr_dfb_round3_20261124/prior/sr_round2_20261124/calibration/cross_repeat_contrasts.py",
+      "bytes": 2254,
+      "sha256": "76be8e493bb5f33e8a07f623953559a9ad05f49ee34164a637c9f992f6715be5"
+    },
+    {
+      "original_archive_path": "sr_dfb_round3_20261124/prior/sr_round2_20261124/calibration/gamma_metadata_amendment_v2.json",
+      "copied_path": "sr_dfb_round3_20261124/prior/sr_round2_20261124/calibration/gamma_metadata_amendment_v2.json",
+      "bytes": 430,
+      "sha256": "6109fa5f30ad8f9fafd882fb9f7d8565d7ddbd2e9aaf63618280b7a1dae05702"
+    },
+    {
+      "original_archive_path": "sr_dfb_round3_20261124/prior/sr_round2_20261124/calibration/reference_compatibility.py",
+      "copied_path": "sr_dfb_round3_20261124/prior/sr_round2_20261124/calibration/reference_compatibility.py",
+      "bytes": 3470,
+      "sha256": "e179eff957f99661bea4a3bba34b203e21d70979f2374305284501811203e823"
+    },
+    {
+      "original_archive_path": "sr_dfb_round3_20261124/prior/sr_round2_20261124/ekman/analysis_contract.json",
+      "copied_path": "sr_dfb_round3_20261124/prior/sr_round2_20261124/ekman/analysis_contract.json",
+      "bytes": 1295,
+      "sha256": "741c7026c3644476a1f0bf09dc78bfee65d09596a7af6e5c23b006a5f5af68f3"
+    },
+    {
+      "original_archive_path": "sr_dfb_round3_20261124/prior/sr_round2_20261124/ekman/analyze_localizer.py",
+      "copied_path": "sr_dfb_round3_20261124/prior/sr_round2_20261124/ekman/analyze_localizer.py",
+      "bytes": 12600,
+      "sha256": "276a9900a206d8d337d8ef19130fb0aa69a98fffcfcfaaa1992cb6d65ee65ba4"
+    },
+    {
+      "original_archive_path": "sr_dfb_round3_20261124/prior/sr_round2_20261124/ekman/independent_checks.py",
+      "copied_path": "sr_dfb_round3_20261124/prior/sr_round2_20261124/ekman/independent_checks.py",
+      "bytes": 6228,
+      "sha256": "0eaa9bf7aeb3b0e802b281f18ac340662159131e1940e7556dd5d799d9927c0d"
+    },
+    {
+      "original_archive_path": "sr_dfb_round3_20261124/prior/sr_round2_20261124/ekman/localizer_history_prediction_contract.json",
+      "copied_path": "sr_dfb_round3_20261124/prior/sr_round2_20261124/ekman/localizer_history_prediction_contract.json",
+      "bytes": 939,
+      "sha256": "cc25dab3840aa518cb9229355fa839e3a52f05bb9a561beab591c3547a89820b"
+    },
+    {
+      "original_archive_path": "sr_dfb_round3_20261124/prior/sr_round2_20261124/ekman/predict_localizer_history.py",
+      "copied_path": "sr_dfb_round3_20261124/prior/sr_round2_20261124/ekman/predict_localizer_history.py",
+      "bytes": 6591,
+      "sha256": "af6bbec967b551776d7e17c3177c654aeef833a399c08a073f35d7786db0125b"
+    },
+    {
+      "original_archive_path": "sr_dfb_round3_20261124/prior/sr_round2_20261124/ekman/reference_history.py",
+      "copied_path": "sr_dfb_round3_20261124/prior/sr_round2_20261124/ekman/reference_history.py",
+      "bytes": 10718,
+      "sha256": "2e72ff3629178b17614889c4d56a0eec7512063efa96d1c0cbc46704959f1227"
+    },
+    {
+      "original_archive_path": "sr_dfb_round3_20261124/prior/sr_round2_20261124/history/README.md",
+      "copied_path": "sr_dfb_round3_20261124/prior/sr_round2_20261124/history/README.md",
+      "bytes": 2797,
+      "sha256": "168eccd5e046b962917fd866be2cc6ad9cc367bfef4e9cf03d64a30b3a291f91"
+    },
+    {
+      "original_archive_path": "sr_dfb_round3_20261124/prior/sr_round2_20261124/history/allen_event_history.py",
+      "copied_path": "sr_dfb_round3_20261124/prior/sr_round2_20261124/history/allen_event_history.py",
+      "bytes": 5511,
+      "sha256": "d6204c37220912b4554319b6d345a16497dbe96f9494881013511af88356bb35"
+    },
+    {
+      "original_archive_path": "sr_dfb_round3_20261124/prior/sr_round2_20261124/history/allen_timebins.py",
+      "copied_path": "sr_dfb_round3_20261124/prior/sr_round2_20261124/history/allen_timebins.py",
+      "bytes": 1919,
+      "sha256": "90db4e5bf7ae4eecd58f3e0b59bc0821ddfab7d04ceb8bb8abb99ee78e0521bd"
+    },
+    {
+      "original_archive_path": "sr_dfb_round3_20261124/prior/sr_round2_20261124/history/allen_timebins_model.py",
+      "copied_path": "sr_dfb_round3_20261124/prior/sr_round2_20261124/history/allen_timebins_model.py",
+      "bytes": 5784,
+      "sha256": "89e4c74209102476a4b9335bee468a304d508d8f970628a65b987cda946c57b9"
+    },
+    {
+      "original_archive_path": "sr_dfb_round3_20261124/prior/sr_round2_20261124/history/analysis_contract.json",
+      "copied_path": "sr_dfb_round3_20261124/prior/sr_round2_20261124/history/analysis_contract.json",
+      "bytes": 2253,
+      "sha256": "32b969197c56d6cbd989602b15718537f5385d721aa45fa6a5254726e21d2320"
+    },
+    {
+      "original_archive_path": "sr_dfb_round3_20261124/prior/sr_round2_20261124/history/extract_fastimages_input.py",
+      "copied_path": "sr_dfb_round3_20261124/prior/sr_round2_20261124/history/extract_fastimages_input.py",
+      "bytes": 2625,
+      "sha256": "b37be3369910eb92f2b4bdfd8a2fb5af328b7fe789075649c43ffaabfa6b65f9"
+    },
+    {
+      "original_archive_path": "sr_dfb_round3_20261124/prior/sr_round2_20261124/history/fastimages_kernel_competition.py",
+      "copied_path": "sr_dfb_round3_20261124/prior/sr_round2_20261124/history/fastimages_kernel_competition.py",
+      "bytes": 8003,
+      "sha256": "177dfdd212a9b6d08ae89fc215f3919a82f8ef2e2833769687709637a7dbab3b"
+    },
+    {
+      "original_archive_path": "sr_dfb_round3_20261124/prior/sr_round2_20261124/history/fastimages_kernel_geometry.py",
+      "copied_path": "sr_dfb_round3_20261124/prior/sr_round2_20261124/history/fastimages_kernel_geometry.py",
+      "bytes": 2799,
+      "sha256": "6b2e042f340c7133adce8536fb12304566770b56c6e0a749e29976e8240416af"
+    },
+    {
+      "original_archive_path": "sr_dfb_round3_20261124/prior/sr_round2_20261124/history/fastimages_temporal_rank_nested.py",
+      "copied_path": "sr_dfb_round3_20261124/prior/sr_round2_20261124/history/fastimages_temporal_rank_nested.py",
+      "bytes": 2161,
+      "sha256": "e63e0601fe1bf435d5e446f4f4fea13046fc303a43f408e6133c6e07faa4df8d"
+    },
+    {
+      "original_archive_path": "sr_dfb_round3_20261124/prior/sr_round2_20261124/history/portable_reproduction_check.py",
+      "copied_path": "sr_dfb_round3_20261124/prior/sr_round2_20261124/history/portable_reproduction_check.py",
+      "bytes": 1990,
+      "sha256": "a9ff944c7e7fef35110a37d1c4c4b95fe03338d9e0cb466a427c7d16ccc11818"
+    },
+    {
+      "original_archive_path": "sr_dfb_round3_20261124/prior/sr_round2_20261124/history/regularization_amendment.json",
+      "copied_path": "sr_dfb_round3_20261124/prior/sr_round2_20261124/history/regularization_amendment.json",
+      "bytes": 792,
+      "sha256": "825bb0d92b2673bcd963ed7ce4dbf18af4fb193043d604b746e2fa9558527e4c"
+    },
+    {
+      "original_archive_path": "sr_dfb_round3_20261124/prior/sr_round2_20261124/history/temporal_rank_amendment.json",
+      "copied_path": "sr_dfb_round3_20261124/prior/sr_round2_20261124/history/temporal_rank_amendment.json",
+      "bytes": 428,
+      "sha256": "c75e6de225753d067f0fd6852d4835815f47d1604429739165f08b52e6bea305"
+    },
+    {
+      "original_archive_path": "sr_dfb_round3_20261124/prior/sr_round2_20261124/math/amendment_reference_ball_v2.json",
+      "copied_path": "sr_dfb_round3_20261124/prior/sr_round2_20261124/math/amendment_reference_ball_v2.json",
+      "bytes": 1106,
+      "sha256": "167c42b16dc05c5cb113fbd9bcc476514d7f257d640e8b11c7db7429a01fa17e"
+    },
+    {
+      "original_archive_path": "sr_dfb_round3_20261124/prior/sr_round2_20261124/math/amendment_reference_ball_v2.md",
+      "copied_path": "sr_dfb_round3_20261124/prior/sr_round2_20261124/math/amendment_reference_ball_v2.md",
+      "bytes": 5044,
+      "sha256": "2f5e79efeb9f80eedb768759e81ecd6072954fa5f4e5fbc4f56280d76328dc11"
+    },
+    {
+      "original_archive_path": "sr_dfb_round3_20261124/prior/sr_round2_20261124/math/calibrate_kern_turner.py",
+      "copied_path": "sr_dfb_round3_20261124/prior/sr_round2_20261124/math/calibrate_kern_turner.py",
+      "bytes": 12699,
+      "sha256": "df97904fa551e8b139251983182c09a14214fba322e48cfae8adfb9f52dfed2f"
+    },
+    {
+      "original_archive_path": "sr_dfb_round3_20261124/prior/sr_round2_20261124/math/protocol.json",
+      "copied_path": "sr_dfb_round3_20261124/prior/sr_round2_20261124/math/protocol.json",
+      "bytes": 2688,
+      "sha256": "f7d9d30f8b34cc542010a4eb744218889eaded1e3667da4839b54dcaca07df45"
+    },
+    {
+      "original_archive_path": "sr_dfb_round3_20261124/prior/sr_round2_20261124/math/protocol_amendment_symmetric_equivalence.json",
+      "copied_path": "sr_dfb_round3_20261124/prior/sr_round2_20261124/math/protocol_amendment_symmetric_equivalence.json",
+      "bytes": 724,
+      "sha256": "cc517792c534b60f98b4bf9415cfd5cea53c3ea9f8e2efaa0a3dfda494fea15e"
+    },
+    {
+      "original_archive_path": "sr_dfb_round3_20261124/prior/sr_round2_20261124/math/sr_geometry.py",
+      "copied_path": "sr_dfb_round3_20261124/prior/sr_round2_20261124/math/sr_geometry.py",
+      "bytes": 7823,
+      "sha256": "4fc19dd2e9a57a6f0d3e940f2715b8a1772e7d067b5ece20e759d99676577530"
+    },
+    {
+      "original_archive_path": "sr_dfb_round3_20261124/prior/sr_round2_20261124/math/verify_reference_ball_v2.py",
+      "copied_path": "sr_dfb_round3_20261124/prior/sr_round2_20261124/math/verify_reference_ball_v2.py",
+      "bytes": 4704,
+      "sha256": "d1b606e1241f7aa4696f5163d8b0033891feba7f5c9f8bc0f5f8211cc1c95b36"
+    },
+    {
+      "original_archive_path": "sr_dfb_round3_20261124/requirements_analysis.txt",
+      "copied_path": "sr_dfb_round3_20261124/requirements_analysis.txt",
+      "bytes": 108,
+      "sha256": "322e97b1ab79af8b82b12aec61d2d52ca3ff8a2be7d0b18fb7ad0a13abdf3683"
+    },
+    {
+      "original_archive_path": "sr_dfb_round3_20261124/theory/README.md",
+      "copied_path": "sr_dfb_round3_20261124/theory/README.md",
+      "bytes": 4509,
+      "sha256": "c90ac52a83e0ad8c167cdaed2b13e1cd85bb947b5a678b0c7f051de9523094c5"
+    },
+    {
+      "original_archive_path": "sr_dfb_round3_20261124/theory/continuous_geometry.py",
+      "copied_path": "sr_dfb_round3_20261124/theory/continuous_geometry.py",
+      "bytes": 16342,
+      "sha256": "1dd7cc6466a2503e66dd41ef613f324cf2b3e7cf2701b4ced4cb5ecfba5611a0"
+    },
+    {
+      "original_archive_path": "sr_dfb_round3_20261124/theory/proofs.md",
+      "copied_path": "sr_dfb_round3_20261124/theory/proofs.md",
+      "bytes": 20762,
+      "sha256": "9b9b6ee3d58dafc9a49c29f0960c73111642d98631b2582dc5e8a22f800cfc79"
+    },
+    {
+      "original_archive_path": "sr_dfb_round3_20261124/theory/verify_continuous_geometry.py",
+      "copied_path": "sr_dfb_round3_20261124/theory/verify_continuous_geometry.py",
+      "bytes": 7945,
+      "sha256": "0f6fcb634d243e94c0f470a8482ad323625b0cc367b7577d841c7e6322c66c81"
+    },
+    {
+      "original_archive_path": "sr_dfb_round3_20261124/uniform/compute_uniform_separation.py",
+      "copied_path": "sr_dfb_round3_20261124/uniform/compute_uniform_separation.py",
+      "bytes": 3992,
+      "sha256": "1346b5ccfb6d0c1b9f59ad1ee942c8598145b4a0c5c44657bcd4ae6ab7825232"
+    },
+    {
+      "original_archive_path": "sr_dfb_round3_20261124/uniform/prepare_spectral_cases.py",
+      "copied_path": "sr_dfb_round3_20261124/uniform/prepare_spectral_cases.py",
+      "bytes": 2988,
+      "sha256": "ff2f67379667f7e779f959e2980c10653b38075cc3433cd6f4909e1e025e9a3e"
+    }
+  ]
+}

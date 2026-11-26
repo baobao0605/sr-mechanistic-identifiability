@@ -1,0 +1,7 @@
+{
+  "reason": "An exact orthogonal-transition identity shows affine-current balanced forward/backward and symmetric-transition families coincide after nonlinear gamma reparameterization. Equal nominal gamma grids cover unequal model sets.",
+  "primary_rule": "Compare F/B/current/symmetric equivalence class. Keep both symmetric formulae as an algebraic numerical audit, align using h grid 0..0.95 and balanced g=h/(1+sqrt(1-h*h)).",
+  "date": "2026-11-24",
+  "status": "theorem-driven correction; v0 retained; not chosen to improve recovery",
+  "other_correction": "Numerically tied model predictions retained as winner set, using 1e-10 target squared norm tolerance; unique numeric winner is not statistical confidence."
+}

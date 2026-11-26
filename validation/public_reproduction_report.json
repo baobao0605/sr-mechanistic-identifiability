@@ -1,0 +1,43 @@
+{
+  "timestamp_utc": "2026-11-26T07:27:17.625996+00:00",
+  "python": "3.13.5",
+  "packages": {
+    "numpy": "2.3.5",
+    "pandas": "2.2.3",
+    "scipy": "1.17.0",
+    "sympy": "1.14.0",
+    "PyMuPDF": "1.26.7"
+  },
+  "steps": [
+    {
+      "script": "math_checks.py",
+      "status": "PASS",
+      "returncode": 0
+    },
+    {
+      "script": "math_additions.py",
+      "status": "PASS",
+      "returncode": 0
+    },
+    {
+      "script": "empirical_check_cyclic_lag_coordinates.py",
+      "status": "PASS",
+      "returncode": 0
+    },
+    {
+      "script": "empirical_check_dfb_tables.py",
+      "status": "PASS",
+      "returncode": 0
+    },
+    {
+      "script": "check_fig07_tables.py",
+      "status": "PASS",
+      "returncode": 0
+    },
+    {
+      "script": "empirical_check_fig07_portable.py",
+      "status": "SKIPPED_OPTIONAL_INPUT_MISSING"
+    }
+  ],
+  "scope": "Symbolic checks, archived table aggregation and optional measured-array downstream refits. No raw-acquisition rerun or natural SR certification."
+}

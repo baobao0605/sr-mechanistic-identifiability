@@ -1,0 +1,106 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="170mm" height="126.25mm" viewBox="0 0 680 505" role="img" aria-labelledby="title desc">
+<title id="title">Compatible readout and joint uncertainty preserve a scientific property</title>
+<desc id="desc">Figure 4. Original editable vector figure; panel descriptions and assumptions are in the accompanying manuscript caption.</desc>
+<defs>
+<marker id="arr-ink" markerWidth="7" markerHeight="7" refX="6.3" refY="3.5" orient="auto" markerUnits="userSpaceOnUse"><path d="M0 0 L7 3.5 L0 7 Z" fill="#20272D"/></marker>
+<marker id="arr-muted" markerWidth="7" markerHeight="7" refX="6.3" refY="3.5" orient="auto" markerUnits="userSpaceOnUse"><path d="M0 0 L7 3.5 L0 7 Z" fill="#65717B"/></marker>
+<marker id="arr-F" markerWidth="7" markerHeight="7" refX="6.3" refY="3.5" orient="auto" markerUnits="userSpaceOnUse"><path d="M0 0 L7 3.5 L0 7 Z" fill="#0072B2"/></marker>
+<marker id="arr-B" markerWidth="7" markerHeight="7" refX="6.3" refY="3.5" orient="auto" markerUnits="userSpaceOnUse"><path d="M0 0 L7 3.5 L0 7 Z" fill="#D55E00"/></marker>
+<marker id="arr-teal" markerWidth="7" markerHeight="7" refX="6.3" refY="3.5" orient="auto" markerUnits="userSpaceOnUse"><path d="M0 0 L7 3.5 L0 7 Z" fill="#009E73"/></marker>
+<marker id="arr-purple" markerWidth="7" markerHeight="7" refX="6.3" refY="3.5" orient="auto" markerUnits="userSpaceOnUse"><path d="M0 0 L7 3.5 L0 7 Z" fill="#8B6BA8"/></marker>
+<marker id="arr-grey" markerWidth="7" markerHeight="7" refX="6.3" refY="3.5" orient="auto" markerUnits="userSpaceOnUse"><path d="M0 0 L7 3.5 L0 7 Z" fill="#87929A"/></marker>
+</defs>
+<rect width="680" height="100%" fill="#FFFFFF"/>
+<text id="txt-13" x="18.000" y="24.000" font-family="Noto Sans CJK SC, DejaVu Sans, sans-serif" font-size="17" font-weight="700" fill="#20272D" text-anchor="start">a</text>
+<text id="txt-14" x="40.000" y="24.000" font-family="Noto Sans CJK SC, DejaVu Sans, sans-serif" font-size="14" font-weight="550" fill="#20272D" text-anchor="start">保留任务作用</text>
+<rect x="56.000" y="59.000" width="24.030" height="24.030" rx="0" fill="#DFEDF5" opacity="1"/>
+<rect x="80.000" y="59.000" width="24.030" height="24.030" rx="0" fill="#2084BC" opacity="1"/>
+<rect x="104.000" y="59.000" width="24.030" height="24.030" rx="0" fill="#F4D7BF" opacity="1"/>
+<rect x="128.000" y="59.000" width="24.030" height="24.030" rx="0" fill="#80B8D8" opacity="1"/>
+<rect x="56.000" y="83.000" width="24.030" height="24.030" rx="0" fill="#80B8D8" opacity="1"/>
+<rect x="80.000" y="83.000" width="24.030" height="24.030" rx="0" fill="#F4D7BF" opacity="1"/>
+<rect x="104.000" y="83.000" width="24.030" height="24.030" rx="0" fill="#4095C5" opacity="1"/>
+<rect x="128.000" y="83.000" width="24.030" height="24.030" rx="0" fill="#0072B2" opacity="1"/>
+<rect x="56.000" y="59.000" width="96.000" height="48.000" rx="0" fill="none" opacity="1" stroke="#B8C1C7" stroke-width="0.7"/>
+<rect x="269.000" y="59.000" width="24.030" height="24.030" rx="0" fill="#EFC39F" opacity="1"/>
+<rect x="293.000" y="59.000" width="24.030" height="24.030" rx="0" fill="#4A9BC8" opacity="1"/>
+<rect x="317.000" y="59.000" width="24.030" height="24.030" rx="0" fill="#DD7D32" opacity="1"/>
+<rect x="341.000" y="59.000" width="24.030" height="24.030" rx="0" fill="#E59D63" opacity="1"/>
+<rect x="269.000" y="83.000" width="24.030" height="24.030" rx="0" fill="#9CC8E1" opacity="1"/>
+<rect x="293.000" y="83.000" width="24.030" height="24.030" rx="0" fill="#5CA5CE" opacity="1"/>
+<rect x="317.000" y="83.000" width="24.030" height="24.030" rx="0" fill="#CDE4F0" opacity="1"/>
+<rect x="341.000" y="83.000" width="24.030" height="24.030" rx="0" fill="#0072B2" opacity="1"/>
+<rect x="269.000" y="59.000" width="96.000" height="48.000" rx="0" fill="none" opacity="1" stroke="#B8C1C7" stroke-width="0.7"/>
+<text id="txt-33" x="104.000" y="48.000" font-family="Noto Sans CJK SC, DejaVu Sans, sans-serif" font-size="12" font-weight="400" fill="#20272D" text-anchor="middle">X</text>
+<text id="txt-34" x="317.000" y="48.000" font-family="Noto Sans CJK SC, DejaVu Sans, sans-serif" font-size="12" font-weight="400" fill="#20272D" text-anchor="middle">GX</text>
+<line x1="172.000" y1="82.000" x2="245.000" y2="82.000" stroke="#65717B" stroke-width="1" opacity="1" marker-end="url(#arr-muted)"/>
+<text id="txt-36" x="209.000" y="68.000" font-family="Noto Sans CJK SC, DejaVu Sans, sans-serif" font-size="13" font-weight="400" fill="#20272D" text-anchor="middle">G</text>
+<line x1="104.000" y1="120.000" x2="104.000" y2="161.000" stroke="#009E73" stroke-width="1" opacity="1" marker-end="url(#arr-teal)"/>
+<line x1="317.000" y1="120.000" x2="317.000" y2="161.000" stroke="#009E73" stroke-width="1" opacity="1" marker-end="url(#arr-teal)"/>
+<text id="txt-39" x="119.000" y="147.000" font-family="Noto Sans CJK SC, DejaVu Sans, sans-serif" font-size="13" font-weight="400" fill="#009E73" text-anchor="start">z</text>
+<text id="txt-40" x="332.000" y="147.000" font-family="Noto Sans CJK SC, DejaVu Sans, sans-serif" font-size="13" font-weight="400" fill="#009E73" text-anchor="start">z</text>
+<line x1="69.000" y1="198.000" x2="144.000" y2="198.000" stroke="#B8C1C7" stroke-width="0.7" opacity="1"/>
+<line x1="104.000" y1="224.000" x2="104.000" y2="170.000" stroke="#B8C1C7" stroke-width="0.7" opacity="1"/>
+<line x1="104.000" y1="198.000" x2="79.793" y2="178.634" stroke="#0072B2" stroke-width="1.8" opacity="1" marker-end="url(#arr-F)"/>
+<line x1="282.000" y1="198.000" x2="357.000" y2="198.000" stroke="#B8C1C7" stroke-width="0.7" opacity="1"/>
+<line x1="317.000" y1="224.000" x2="317.000" y2="170.000" stroke="#B8C1C7" stroke-width="0.7" opacity="1"/>
+<line x1="317.000" y1="198.000" x2="289.404" y2="207.683" stroke="#0072B2" stroke-width="1.8" opacity="1" marker-end="url(#arr-F)"/>
+<line x1="172.000" y1="195.000" x2="245.000" y2="195.000" stroke="#65717B" stroke-width="1" opacity="1" marker-end="url(#arr-muted)"/>
+<text id="txt-48" x="209.000" y="181.000" font-family="Noto Sans CJK SC, DejaVu Sans, sans-serif" font-size="13" font-weight="400" fill="#20272D" text-anchor="middle">G</text>
+<text id="txt-49" x="104.000" y="246.000" font-family="Noto Sans CJK SC, DejaVu Sans, sans-serif" font-size="12" font-weight="400" fill="#20272D" text-anchor="middle">z(X)</text>
+<text id="txt-50" x="317.000" y="246.000" font-family="Noto Sans CJK SC, DejaVu Sans, sans-serif" font-size="12" font-weight="400" fill="#20272D" text-anchor="middle">z(GX)</text>
+<text id="txt-51" x="210.000" y="272.000" font-family="Noto Sans CJK SC, DejaVu Sans, sans-serif" font-size="13" font-weight="400" fill="#009E73" text-anchor="middle">z(GX) = Gz(X)</text>
+<text id="txt-52" x="424.000" y="24.000" font-family="Noto Sans CJK SC, DejaVu Sans, sans-serif" font-size="17" font-weight="700" fill="#20272D" text-anchor="start">b</text>
+<text id="txt-53" x="446.000" y="24.000" font-family="Noto Sans CJK SC, DejaVu Sans, sans-serif" font-size="14" font-weight="550" fill="#20272D" text-anchor="start">联合误差</text>
+<rect x="472.000" y="66.000" width="32.030" height="32.030" rx="0" fill="#0072B2" opacity="1"/>
+<rect x="504.000" y="66.000" width="32.030" height="32.030" rx="0" fill="#FFFFFF" opacity="1"/>
+<rect x="536.000" y="66.000" width="32.030" height="32.030" rx="0" fill="#E59A60" opacity="1"/>
+<rect x="568.000" y="66.000" width="32.030" height="32.030" rx="0" fill="#FFFFFF" opacity="1"/>
+<rect x="472.000" y="98.000" width="32.030" height="32.030" rx="0" fill="#FFFFFF" opacity="1"/>
+<rect x="504.000" y="98.000" width="32.030" height="32.030" rx="0" fill="#0072B2" opacity="1"/>
+<rect x="536.000" y="98.000" width="32.030" height="32.030" rx="0" fill="#FFFFFF" opacity="1"/>
+<rect x="568.000" y="98.000" width="32.030" height="32.030" rx="0" fill="#E59A60" opacity="1"/>
+<rect x="472.000" y="130.000" width="32.030" height="32.030" rx="0" fill="#E59A60" opacity="1"/>
+<rect x="504.000" y="130.000" width="32.030" height="32.030" rx="0" fill="#FFFFFF" opacity="1"/>
+<rect x="536.000" y="130.000" width="32.030" height="32.030" rx="0" fill="#0072B2" opacity="1"/>
+<rect x="568.000" y="130.000" width="32.030" height="32.030" rx="0" fill="#FFFFFF" opacity="1"/>
+<rect x="472.000" y="162.000" width="32.030" height="32.030" rx="0" fill="#FFFFFF" opacity="1"/>
+<rect x="504.000" y="162.000" width="32.030" height="32.030" rx="0" fill="#E59A60" opacity="1"/>
+<rect x="536.000" y="162.000" width="32.030" height="32.030" rx="0" fill="#FFFFFF" opacity="1"/>
+<rect x="568.000" y="162.000" width="32.030" height="32.030" rx="0" fill="#0072B2" opacity="1"/>
+<rect x="472.000" y="66.000" width="128.000" height="128.000" rx="0" fill="none" opacity="1" stroke="#B8C1C7" stroke-width="0.7"/>
+<text id="txt-71" x="488.000" y="55.000" font-family="Noto Sans CJK SC, DejaVu Sans, sans-serif" font-size="11.5" font-weight="400" fill="#20272D" text-anchor="middle">b₁</text>
+<text id="txt-72" x="460.000" y="86.000" font-family="Noto Sans CJK SC, DejaVu Sans, sans-serif" font-size="11.5" font-weight="400" fill="#20272D" text-anchor="end">b₁</text>
+<text id="txt-73" x="520.000" y="55.000" font-family="Noto Sans CJK SC, DejaVu Sans, sans-serif" font-size="11.5" font-weight="400" fill="#20272D" text-anchor="middle">b₂</text>
+<text id="txt-74" x="460.000" y="118.000" font-family="Noto Sans CJK SC, DejaVu Sans, sans-serif" font-size="11.5" font-weight="400" fill="#20272D" text-anchor="end">b₂</text>
+<text id="txt-75" x="552.000" y="55.000" font-family="Noto Sans CJK SC, DejaVu Sans, sans-serif" font-size="11.5" font-weight="400" fill="#20272D" text-anchor="middle">y₁</text>
+<text id="txt-76" x="460.000" y="150.000" font-family="Noto Sans CJK SC, DejaVu Sans, sans-serif" font-size="11.5" font-weight="400" fill="#20272D" text-anchor="end">y₁</text>
+<text id="txt-77" x="584.000" y="55.000" font-family="Noto Sans CJK SC, DejaVu Sans, sans-serif" font-size="11.5" font-weight="400" fill="#20272D" text-anchor="middle">y₂</text>
+<text id="txt-78" x="460.000" y="182.000" font-family="Noto Sans CJK SC, DejaVu Sans, sans-serif" font-size="11.5" font-weight="400" fill="#20272D" text-anchor="end">y₂</text>
+<line x1="536.000" y1="66.000" x2="536.000" y2="194.000" stroke="#20272D" stroke-width="0.9" opacity="1"/>
+<line x1="472.000" y1="130.000" x2="600.000" y2="130.000" stroke="#20272D" stroke-width="0.9" opacity="1"/>
+<text id="txt-81" x="536.000" y="222.000" font-family="Noto Sans CJK SC, DejaVu Sans, sans-serif" font-size="13" font-weight="400" fill="#20272D" text-anchor="middle">rᵢ(T) = yᵢ − Tbᵢ</text>
+<text id="txt-82" x="536.000" y="247.000" font-family="Noto Sans CJK SC, DejaVu Sans, sans-serif" font-size="12" font-weight="400" fill="#65717B" text-anchor="middle">参考 + 目标</text>
+<text id="txt-83" x="18.000" y="315.000" font-family="Noto Sans CJK SC, DejaVu Sans, sans-serif" font-size="17" font-weight="700" fill="#20272D" text-anchor="start">c</text>
+<text id="txt-84" x="40.000" y="315.000" font-family="Noto Sans CJK SC, DejaVu Sans, sans-serif" font-size="14" font-weight="550" fill="#20272D" text-anchor="start">保留全部相容解释</text>
+<path d="M 118.000 469.000 L 194.933 392.067 L 193.579 390.736 L 192.201 389.429 L 190.801 388.146 L 189.379 386.888 L 187.935 385.654 L 186.470 384.447 L 184.984 383.264 L 183.477 382.108 L 181.951 380.979 L 180.405 379.876 L 178.840 378.801 L 177.257 377.753 L 175.655 376.732 L 174.036 375.740 L 172.400 374.776 L 170.747 373.841 L 169.079 372.935 L 167.394 372.058 L 165.695 371.211 L 163.981 370.394 L 162.253 369.606 L 160.512 368.849 L 158.757 368.122 L 156.990 367.426 L 155.212 366.761 L 153.422 366.128 L 151.621 365.525 L 149.810 364.954 L 147.989 364.415 L 146.160 363.907 L 144.321 363.432 L 142.475 362.989 L 140.621 362.578 L 138.760 362.199 L 136.893 361.853 L 135.020 361.540 L 133.142 361.259 L 131.259 361.011 L 129.373 360.796 L 127.483 360.614 L 125.590 360.465 L 123.694 360.349 L 121.797 360.266 L 119.899 360.217 L 118.000 360.200 L 118.000 469.000 Z" stroke="none" stroke-width="0" fill="#E5F2F8" opacity="1" stroke-linejoin="round" stroke-linecap="round"/>
+<line x1="118.000" y1="469.000" x2="258.250" y2="469.000" stroke="#65717B" stroke-width="0.8" opacity="1" marker-end="url(#arr-muted)"/>
+<line x1="118.000" y1="469.000" x2="118.000" y2="354.250" stroke="#65717B" stroke-width="0.8" opacity="1" marker-end="url(#arr-muted)"/>
+<line x1="118.000" y1="469.000" x2="220.000" y2="367.000" stroke="#87929A" stroke-width="0.8" opacity="1" stroke-dasharray="3 3"/>
+<text id="txt-89" x="262.250" y="473.000" font-family="Noto Sans CJK SC, DejaVu Sans, sans-serif" font-size="11.5" font-weight="400" fill="#20272D" text-anchor="start">u</text>
+<text id="txt-90" x="111.000" y="350.250" font-family="Noto Sans CJK SC, DejaVu Sans, sans-serif" font-size="11.5" font-weight="400" fill="#20272D" text-anchor="start">v</text>
+<circle cx="162.276" cy="375.434" r="16.503436851264603" fill="#E5F2F8" opacity="1" stroke="#0072B2" stroke-width="1.6"/>
+<circle cx="161.107" cy="376.557" r="2.8" fill="#20272D" opacity="1"/>
+<text id="txt-93" x="235.000" y="368.000" font-family="Noto Sans CJK SC, DejaVu Sans, sans-serif" font-size="11.5" font-weight="400" fill="#0072B2" text-anchor="start">相容集合</text>
+<line x1="230.000" y1="373.000" x2="178.779" y2="375.434" stroke="#0072B2" stroke-width="0.8" opacity="1"/>
+<text id="txt-95" x="224.000" y="416.000" font-family="Noto Sans CJK SC, DejaVu Sans, sans-serif" font-size="11.5" font-weight="400" fill="#65717B" text-anchor="start">45°</text>
+<text id="txt-96" x="170.000" y="489.000" font-family="Noto Sans CJK SC, DejaVu Sans, sans-serif" font-size="11.5" font-weight="400" fill="#65717B" text-anchor="middle">指定矩示例</text>
+<circle cx="430.000" cy="346.000" r="4.3" fill="#0072B2" opacity="1"/>
+<text id="txt-98" x="447.000" y="350.000" font-family="Noto Sans CJK SC, DejaVu Sans, sans-serif" font-size="12" font-weight="400" fill="#0072B2" text-anchor="start">共同性质</text>
+<circle cx="430.000" cy="386.000" r="4.3" fill="#8B6BA8" opacity="1"/>
+<text id="txt-100" x="447.000" y="390.000" font-family="Noto Sans CJK SC, DejaVu Sans, sans-serif" font-size="12" font-weight="400" fill="#8B6BA8" text-anchor="start">仍有歧义</text>
+<circle cx="430.000" cy="426.000" r="4.3" fill="#D55E00" opacity="1"/>
+<text id="txt-102" x="447.000" y="430.000" font-family="Noto Sans CJK SC, DejaVu Sans, sans-serif" font-size="12" font-weight="400" fill="#D55E00" text-anchor="start">无相容模型</text>
+<circle cx="430.000" cy="466.000" r="4.3" fill="#87929A" opacity="1"/>
+<text id="txt-104" x="447.000" y="470.000" font-family="Noto Sans CJK SC, DejaVu Sans, sans-serif" font-size="12" font-weight="400" fill="#87929A" text-anchor="start">测量条件未满足</text>
+</svg>

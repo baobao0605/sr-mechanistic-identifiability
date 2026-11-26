@@ -1,0 +1,3 @@
+dataset,computational_conditions,declared,abstentions,source
+Kern,630,0,630,joint_integration/source_data/transport_stress_results.csv
+Turner,570,0,570,joint_integration/source_data/transport_stress_results.csv

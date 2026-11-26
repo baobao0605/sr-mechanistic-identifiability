@@ -1,0 +1,31 @@
+{
+  "source_archive": "SR_preprint_bilingual_20261126.zip",
+  "sha256": "190f497122b8d66c55a8441b038525217424282ccaacd13a152bc40750d71a1f",
+  "original_manifest_files_verified": 308,
+  "unchanged_files": 287,
+  "changed_files": [
+    "README.md",
+    "code/math_checks.py",
+    "empirical/dFB_provenance.json",
+    "empirical/empirical_audit_results.json",
+    "empirical/round1_source_manifest.json",
+    "reference_archive/analysis_code/README.md",
+    "source_data/README_fig07.md"
+  ],
+  "new_files_before_this_report": [
+    ".gitignore",
+    "CITATION.cff",
+    "LICENSE",
+    "LICENSE_SCOPE.md",
+    "code/check_fig07_tables.py",
+    "reproduce.py",
+    "source_data/README_DATA.md",
+    "validation/fig07_local_input_recheck.json",
+    "validation/fig07_table_recheck.json",
+    "validation/local_input_reproduction_report.json",
+    "validation/public_reproduction_report.json"
+  ],
+  "manuscript_figures_proofs_and_source_csvs_identical": true,
+  "public_optional_measured_array_excluded": true,
+  "scope": "Release packaging and portable checks only; no changes to original science."
+}

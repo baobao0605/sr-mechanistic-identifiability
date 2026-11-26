@@ -1,0 +1,181 @@
+{
+  "date": "2026-11-26",
+  "manuscripts": [
+    {
+      "file": "Manuscript_ZH.pdf",
+      "pages": 30,
+      "bytes": 730294,
+      "sha256": "cfbdd4c30dd65b1508a6dc6328fa10bd297c1121ffe8d08a2da8d6a396c753d0",
+      "overfull_boxes": 0,
+      "missing_glyphs": 0,
+      "editable_markdown": "Manuscript_ZH.md",
+      "editable_tex": "Manuscript_ZH.tex",
+      "bookmark_count": 28,
+      "english_word_tokens": null,
+      "han_characters": 24574
+    },
+    {
+      "file": "Supplementary_ZH.pdf",
+      "pages": 34,
+      "bytes": 499720,
+      "sha256": "368d7832ffb2ea50f5414355aafe77c84b24d1a189a433861712f507f359fc4e",
+      "overfull_boxes": 0,
+      "missing_glyphs": 0,
+      "editable_markdown": "Supplementary_ZH.md",
+      "editable_tex": "Supplementary_ZH.tex",
+      "bookmark_count": 30
+    },
+    {
+      "file": "Manuscript_EN.pdf",
+      "pages": 39,
+      "bytes": 653788,
+      "sha256": "a771e31731ace7f2ad8a440f53d878a7de9c3599131f2f3a8622b2db225f71fc",
+      "overfull_boxes": 0,
+      "missing_glyphs": 0,
+      "editable_markdown": "Manuscript_EN.md",
+      "editable_tex": "Manuscript_EN.tex",
+      "bookmark_count": 28,
+      "english_word_tokens": 15122,
+      "han_characters": null
+    },
+    {
+      "file": "Supplementary_EN.pdf",
+      "pages": 43,
+      "bytes": 261412,
+      "sha256": "c12d40852d26d683bb158392df1cadd356db0b9d7eea31efb356bb6dd6244ef5",
+      "overfull_boxes": 0,
+      "missing_glyphs": 0,
+      "editable_markdown": "Supplementary_EN.md",
+      "editable_tex": "Supplementary_EN.tex",
+      "bookmark_count": 30
+    }
+  ],
+  "figures": [
+    {
+      "figure": 1,
+      "language": "zh",
+      "editable_text_elements": 53,
+      "pdf_raster_images": 0,
+      "svg_sha256": "3d863048ada3062b2da2564a11ebe81f2bfb47b6f3e451c0c4c10fff2250bbab"
+    },
+    {
+      "figure": 1,
+      "language": "en",
+      "editable_text_elements": 53,
+      "pdf_raster_images": 0,
+      "svg_sha256": "d598598c8c9ab439e9c95d37f53b13d4283c9dc8d382149cb6cad0c583494160"
+    },
+    {
+      "figure": 2,
+      "language": "zh",
+      "editable_text_elements": 32,
+      "pdf_raster_images": 0,
+      "svg_sha256": "81fc3342490e7e41707d7d5d33fd2f682188dc7f75b722cc952e45977ba29147"
+    },
+    {
+      "figure": 2,
+      "language": "en",
+      "editable_text_elements": 32,
+      "pdf_raster_images": 0,
+      "svg_sha256": "4cc5ae1609484e6a2e189212785330e698f0ecf0e67e48d8664a881aac516d5c"
+    },
+    {
+      "figure": 3,
+      "language": "zh",
+      "editable_text_elements": 39,
+      "pdf_raster_images": 0,
+      "svg_sha256": "72068bf097b54efdc9b1563dc7205bd9ac2f57050c3b640bdd579e6e4091eb07"
+    },
+    {
+      "figure": 3,
+      "language": "en",
+      "editable_text_elements": 39,
+      "pdf_raster_images": 0,
+      "svg_sha256": "8a27359e1a2d74fed33f38c69d0afe11b55c4f3bac29260a0cdb6f4bcf1b5d4f"
+    },
+    {
+      "figure": 4,
+      "language": "zh",
+      "editable_text_elements": 34,
+      "pdf_raster_images": 0,
+      "svg_sha256": "32f768bee50a4b0d50b63140681f6db0f2c02ab6163be6a524f862b70bfc8750"
+    },
+    {
+      "figure": 4,
+      "language": "en",
+      "editable_text_elements": 34,
+      "pdf_raster_images": 0,
+      "svg_sha256": "f3e43ddcabe3366ea63d55f11625f00f998b9117b8cf9032995bc45fb45fd8fe"
+    },
+    {
+      "figure": 5,
+      "language": "zh",
+      "editable_text_elements": 35,
+      "pdf_raster_images": 0,
+      "svg_sha256": "9920c0c439a8bd0d61f32e438e8090b4a79f3309015d10cfcca3d2e5a6b87a8a"
+    },
+    {
+      "figure": 5,
+      "language": "en",
+      "editable_text_elements": 35,
+      "pdf_raster_images": 0,
+      "svg_sha256": "37e09cc7764aa1875aa4322b92e2bc2bc9efb3f0bde885dad4da6d981cb78640"
+    },
+    {
+      "figure": 6,
+      "language": "zh",
+      "editable_text_elements": 79,
+      "pdf_raster_images": 0,
+      "svg_sha256": "d0d8f7aca08ea8a2c1c03c29690f2985b8a88854dbede201176cc188eadfc3ca"
+    },
+    {
+      "figure": 6,
+      "language": "en",
+      "editable_text_elements": 79,
+      "pdf_raster_images": 0,
+      "svg_sha256": "b369a1c24537c2d27042aba0f48dcd4e2f9fa904701b99cd164709adc70d46cf"
+    },
+    {
+      "figure": 7,
+      "language": "zh",
+      "editable_text_elements": 58,
+      "pdf_raster_images": 0,
+      "svg_sha256": "99f1cc79f37d6ee0c4ff20c4d9f2d84b569b6b8a753e65beb4c763ec09fbf35e"
+    },
+    {
+      "figure": 7,
+      "language": "en",
+      "editable_text_elements": 58,
+      "pdf_raster_images": 0,
+      "svg_sha256": "2509cb011eb194001ac7ea2e6ad54c303b7700e5ea88ea66a169c9b6e819f986"
+    },
+    {
+      "figure": 8,
+      "language": "zh",
+      "editable_text_elements": 30,
+      "pdf_raster_images": 0,
+      "svg_sha256": "ce066cf0e5706d29cff9ab2c059ce16133f635e42fd0e86c2fe7b02a4e4a9029"
+    },
+    {
+      "figure": 8,
+      "language": "en",
+      "editable_text_elements": 30,
+      "pdf_raster_images": 0,
+      "svg_sha256": "f589a62612627e4694912aeda1e32b7d1d9a7f335fd204100ae9e51fb2986346"
+    }
+  ],
+  "protected_author_text": {
+    "ZH": {
+      "verbatim": true,
+      "sha256": "d81e4df9512748539dbe6f256ce352de3b1df1ef946ab15d985bbb59b0e117ae"
+    },
+    "EN": {
+      "verbatim": true,
+      "sha256": "30021f378b244cbbdd85ae2bd26e516b8f8fd0729a240b7f0462fece3b886c11"
+    }
+  },
+  "all_checks_passed": true,
+  "numbered_references": 27,
+  "theory_results": 28,
+  "empirical_sections": 11
+}

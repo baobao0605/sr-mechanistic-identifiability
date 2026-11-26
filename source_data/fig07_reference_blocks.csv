@@ -1,0 +1,9 @@
+key,session,block,block_label,window,window_start_ms,window_end_ms,control_count,state_count_min,state_count_max,family,lambda,plane_mse,plane_zero_mse,gain_percent,outer_mse,zero_mse,source
+Turner_s1_b0_early_all_local,1,0,R1 B1,early,100,150,491,7,22,fourier_2,0.2,13.26096579604318,12.241358411295174,-8.32920130667203,7.460275847904347,7.435531959583949,B_reference/source_data/all_control_reference_losses.csv
+Turner_s1_b0_late_all_local,1,0,R1 B1,late,200,250,491,7,22,fourier_2,0.5,5.489457049469796,6.607737508009922,16.92380269622609,9.440387483235847,9.446519463345028,B_reference/source_data/all_control_reference_losses.csv
+Turner_s1_b1_early_all_local,1,1,R1 B2,early,100,150,492,6,19,fourier_1,0.0,5.337635336270693,5.337635336270693,0.0,5.896911363167877,5.896911363167877,B_reference/source_data/all_control_reference_losses.csv
+Turner_s1_b1_late_all_local,1,1,R1 B2,late,200,250,492,6,19,fourier_8,0.1,7.000645345676493,7.517446469175147,6.874689771556961,7.458743068342975,7.643859986948174,B_reference/source_data/all_control_reference_losses.csv
+Turner_s2_b0_early_all_local,2,0,R2 B1,early,100,150,491,5,19,fourier_4,0.4,15.942359927070346,21.293438848879223,25.13017723339943,5.337264966892113,5.7726509954040095,B_reference/source_data/all_control_reference_losses.csv
+Turner_s2_b0_late_all_local,2,0,R2 B1,late,200,250,491,5,19,fourier_19,0.2,2.4015594026963067,3.5524461135957104,32.39702092861587,4.463312687316134,4.5055924526856685,B_reference/source_data/all_control_reference_losses.csv
+Turner_s2_b1_early_all_local,2,1,R2 B2,early,100,150,492,7,17,fourier_8,0.4,6.714993963127112,9.506358170997595,29.36312894654546,4.6453553371890015,4.8824291727862015,B_reference/source_data/all_control_reference_losses.csv
+Turner_s2_b1_late_all_local,2,1,R2 B2,late,200,250,492,7,17,fourier_8,0.5,2.655865839745757,6.317759856536197,57.96190580118261,4.949030241647408,3.893173511771182,B_reference/source_data/all_control_reference_losses.csv

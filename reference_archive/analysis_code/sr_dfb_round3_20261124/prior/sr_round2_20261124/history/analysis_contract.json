@@ -1,0 +1,17 @@
+{
+  "created_utc": "2026-11-24T05:19:58.267459+00:00",
+  "scope": "Focused SR observation confound calibration using actual Allen and FASTIMAGES data; no claim of learned SR in either dataset.",
+  "Allen_primary": "Response window 50..250 ms; no prestimulus duplication result reused as new. 118 images plus blank retained in predictors; original conservative union invalid mask. VISp primary, all visual secondary with same event mask. Four chronological held-out groups; remove 3 event guard at each discontinuity/fold boundary for all compared models.",
+  "Allen_models": [
+    "C: current image identity",
+    "H1: current + 1 previous image",
+    "H3: current + 3 previous images",
+    "F1: current + 1 future image negative control"
+  ],
+  "Allen_metric": "Nested leave-chronological-group-out ridge regression; common inner alpha grid per model, standardized predictors/response only from training observations. Outer held-out SSE relative to train-mean baseline; report all four folds and ROI aggregate. Not participant-level inference.",
+  "Allen_mechanistic_limit": "Stimulus-specific independent history coefficients are not assumed to be scalar multiples of a common B; exact SR alias only follows under that additional separability restriction. Fixed-SOA FIR full raw analyses need design rank audit.",
+  "FAST_primary": "Use author-cleaned 102 magnetometers and actual event onsets; localizer-trained causal sensor-by-stimulus response kernel with finite support; cross-held-block generalization to sequences. No extra probability simplex normalization.",
+  "FAST_limit": "Rapid physical future items can occur inside nominal post-cue windows; physiological impulse responses and task prediction cannot be separated by SR template competition alone unless measured sensory history included. Shared localized reference is estimated from training blocks only.",
+  "parameter_selection": "Any data-informed or post-primary extension explicitly marked. This is retrospective computational analysis of previously accessed recordings, not preregistration.",
+  "uncertainty": "Within-session cross-validation provides repeatable prediction evidence; no deterministic confidence certificate and no population inference from single mouse/person."
+}

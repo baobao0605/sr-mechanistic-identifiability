@@ -1,0 +1,24 @@
+{
+  "source_type": "analytic illustration with prescribed sufficient statistics; no neural data or simulated subjects",
+  "n_for_threshold": 24,
+  "alpha": 0.05,
+  "reference_mean": [
+    1.0,
+    0.0
+  ],
+  "target_mean": [
+    0.5071419140888394,
+    1.0875693444439798
+  ],
+  "K2": 0.299989416384222,
+  "joint_acceptance_circle_center": [
+    0.520892134596717,
+    1.1007782170399105
+  ],
+  "joint_acceptance_radius": 0.19415808060311296,
+  "reference_fixed_radius": 0.10954257918895684,
+  "equivariance_error": 5.551115123125783e-17,
+  "all_circle_points_above_mixed_sector": true,
+  "K2_scope": "candidate-specific 2D mean residual inversion; not a 4D 95% mean region",
+  "model_mismatch_scope": "requires an unsaturated candidate family or extra observable constraints"
+}
